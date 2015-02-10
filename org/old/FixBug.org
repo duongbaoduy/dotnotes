@@ -1,0 +1,30 @@
+#+STARTUP: showall
+* Changlogs:
+** WebDav:
+   * Version 1.0:
+     - support HTTP+SSL
+     - fix: encode username when login.  
+** FTP/FTPS/SFTP:
+   * Version 1.5:
+     - support adding path into address
+** SMB:
+   * Version 1.5:
+     - fix: encode username when login.
+** MAIN APPS:
+   * Version 2.9.5:
+     - remove valid address when adding the path. 
+* Issue plugin:
+** WebDav:
+   * Version 1.1:
+     - Anonymous user (not support yet)
+     - digest authentication.
+** FTP/FTPS/SFTP:
+   * Version 1.6:
+     - login failed with anonymous user (fixed)
+     - sftp login with passphrase (not support yet)
+** SMB:
+   * Version 1.61:
+     - can't scan server in local lan area (not support yet)
+     - can't set available properties at here (http://jcifs.samba.org/src/docs/api/overview-summary.html#scp)
+     
+       

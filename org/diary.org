@@ -1,0 +1,27 @@
+
+* 2013
+** 2013-10 October
+*** 2013-10-14 Monday
+**** Không biết điền gì đây. haiz haizz		  :@home:PLAN:TASK:ASSIGMENT:
+     [2013-10-14 Mon 22:29]g
+**** tiếp theo đây		    :@home:IMPLEMENT:IMPROVEMENT:APPOINTMENT:
+     [2013-10-14 Mon 22:32]
+*** 2013-10-15 Tuesday
+**** http://www.headhole.org/organisation/2012/08/22/org-mode-gtd-and-the-pomodoro-technique/ :@home:RESEARCH:FEATURE:ASSIGMENT:
+[2013-10-15 Tue 01:44]
+*** 2013-10-17 Thursday
+**** kvm, illumos search from 0xdeadbeef
+     http://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine
+     http://wiki.illumos.org/display/illumos/illumos+Home is a fork of solaris and a kernel of smartOS
+     CLOCK: [2013-10-17 Thu 10:22]--[2013-10-17 Thu 10:24] =>  0:02
+[2013-10-17 Thu 10:22]
+*** 2013-10-18 Friday
+**** [#A] http://24waystostart.com/2010/designer-architect-developer/ designer, architect, developer
+     CLOCK: [2013-10-18 Fri 11:42]--[2013-10-18 Fri 11:50] =>  0:08
+[2013-10-18 Fri 11:42]
+* 2014
+** 2014-06 June
+*** 2014-06-24 Tuesday
+**** test org capture with new template
+CLOCK: [2014-06-24 Tue 01:30]--[2014-06-24 Tue 01:30] =>  0:00
+[2014-06-24 Tue 01:30]

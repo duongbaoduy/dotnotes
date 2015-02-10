@@ -1,0 +1,23 @@
+* TODO remember to add function for sony http://www.remotecentral.com/cgi-bin/codes/sony/tv_generic_driver/page-3/
+CLOCK: [2014-06-25 Wed 09:28]--[2014-06-25 Wed 09:28] =>  0:00
+[2014-06-25 Wed 09:28]
+* TODO json db on android with Java
+CLOCK: [2014-06-26 Thu 11:07]--[2014-06-26 Thu 11:07] =>  0:00
+[2014-06-26 Thu 11:07]
+[[file:/Users/duongbaoduy/Dropbox/ike/dbd/ebook/server/.DS_Store]]
+* TODO read it https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS
+CLOCK: [2014-06-26 Thu 23:36]--[2014-06-26 Thu 23:36] =>  0:00
+[2014-06-26 Thu 23:36]
+[[file:/Users/duongbaoduy/Dropbox/org/business.org]]
+* TODO read it https://www.dartlang.org/docs/tutorials/httpserver/
+CLOCK: [2014-06-26 Thu 23:36]--[2014-06-26 Thu 23:36] =>  0:00
+[2014-06-26 Thu 23:36]
+[[file:/Users/duongbaoduy/Dropbox/org/business.org]]
+* TODO read it http://bost.ocks.org/mike/algorithms/
+CLOCK: [2014-06-27 Fri 13:31]--[2014-06-27 Fri 13:31] =>  0:00
+[2014-06-27 Fri 13:31]
+[[file:/Users/duongbaoduy/Dropbox/org/todo.org]]
+* TODO read it http://s0beit.me/cpp/parsing-html-with-c-with-extra-utf-8-woes/
+CLOCK: [2014-07-01 Tue 11:24]--[2014-07-01 Tue 11:24] =>  0:00
+[2014-07-01 Tue 11:24]
+[[file:/Users/duongbaoduy/Dropbox/ike/tmp/bot/build/setup.sh::if%20%5B%20!%20-d%20$DEST_DIR%20%5D;%20then][file:/Users/duongbaoduy/Dropbox/ike/tmp/bot/build/setup.sh::if [ ! -d $DEST_DIR ]; then]]

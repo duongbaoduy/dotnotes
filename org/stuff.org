@@ -1,0 +1,174 @@
+# -*- mode: org; fill-column: 90; -*-
+#+STARTUP: overview hidestars noinlineimages
+#+OPTIONS: H:3 num:nil toc:nil \n:nil ::t |:t ^:t -:t f:t *:t tex:t d:(HIDE) tags:not-in-toc
+#+CATEGORY: gtd,
+#+INFOJS_OPT: view:t toc:t ltoc:t mouse:underline buttons:0 path:http://thomasf.github.io/solarized-css/org-info.min.js
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://thomasf.github.io/solarized-css/solarized-light.min.css" />
+#+MODIFIED_DATE:[2013-10-15 Tue 10:16]
+  
+* Create blog with Jekyll
+  - Name: BlogIt, Duong Bao Duy, h46k3r
+  - url: duongbaoduy.github.io
+** Config layout for blog, re-organize as plugin if can?
+** DONE fix error org publish error when push org files.
+   CLOSED: [2013-10-19 Sat 00:39]
+   CLOCK: [2013-10-18 Fri 22:12]--[2013-10-19 Sat 00:39] =>  2:27
+** Settup Disqus service for blog
+** setting org-jekyll mode.
+   https://github.com/nibrahim/Hyde
+* Navigation source code
+** Some reference
+   http://ecb.sourceforge.net/docs/
+   http://stackoverflow.com/questions/3519965/emacs-source-code-navigation-features
+   http://www.emacswiki.org/emacs/CategoryNavigation
+   
+** Some keyboard shortcut
+   | Key     | Description                            |
+   |---------+----------------------------------------|
+   | M-.     | Find tags at pointer                   |
+   | M-0 M-. | Find next current work                 |
+   | M-*     | Return to the first point              |
+   | M-,     | Find next match in command `tag-search |
+
+** from command line: =M-x compile RET find . -name '*.[ch]'=
+   
+** Some open source software relative: global (gtags), idutils
+* STARTED C/C++ programming network report [0%]
+  CLOCK: [2013-10-15 Tue 12:38]--[2013-10-16 Wed 14:11] => 25:33
+** STARTED code a server/client example
+*** DONE Server code
+    CLOSED: [2013-10-16 Wed 13:59]
+    - State "DONE"       from ""           [2013-10-16 Wed 13:59]
+*** TODO Client code
+** TODO explain the function use in code
+** TOBLOG explain workflow, introduce about
+** TOBLOG some relative functions
+** TOBLOG knowledge about network player (tcp/ip)
+* TODO blogging/writting about [/]
+** clojure: basic
+*** TOBLOG create clojure project with lein
+*** TOBLOG basic statement in clojure
+*** TOBLOG introduce scheme programming with clojure
+** gnumake
+*** TOBLOG Makefile by example http://mrbook.org/tutorials/make/
+** hadoop
+*** TOBLOG Overview? bigdata?
+*** TOBLOG common lisp in high computation/high performance
+** nmap
+** emacs
+** metaploit
+** dsploit
+** linux kernel: overview (build, install, branch, api)
+** TOBLOG GTD tutorial
+** otopress, jekyll, gae
+*** Some information about server support cloud app, api, programming langague
+    | Name      | Url                  | Storage    | N.apps limit | Programming langague       |
+    |-----------+----------------------+------------+--------------+----------------------------|
+    | GAE       | <name>.appspot.com   | 500mb/apps | 10           | java; python; php          |
+    | Heroku    | <name>.herokuapp.com | 300mb/apps | ?            | clojure; ruby, rail; java; |
+    | openshift |                      |            |              |                            |
+** tips & trick
+*** Some linux command need to around source code.
+* TODO Pepple blog framework http://pebble.sourceforge.net/ 
+** install
+** customize
+** develop some extension
+* TODO apply jobs here. http://vietlabo.com/tuyen-ki-su-cau-noi-viet-nhat-bridge-system-engineer-j55.html
+** Add some skill to resume
+** write best cover letter
+* TODO implement web service use jax-rpc http://powerappz.tripod.com/jaxrpc.htm
+* WAITING Build emacs VM server.
+  - State "WAITING"    from "STARTED"    [2013-10-23 Wed 17:24] \\
+    Something went wrong on linux system.
+  - name: meide
+  - tools: git, build-bot, vm-diks, emacs server
+* Projects
+** mjcms
+* Web design
+  | url             | Description                 | Comment                          | author       |
+  |-----------------+-----------------------------+----------------------------------+--------------|
+  | <15>            |                             |                                  |              |
+  | http://www.awwwards.com/websites/navigation/ | Best website navigation     | đẹp nhưng không có chỉ cách làm. |              |
+  | http://doc.norang.ca/ | Orgmode & some useful guide | Đơn giản                         | Bernt Hansen |
+  |                 |                             |                                  |              |
+* Reviewed website of some open source software
+  | Name          | url             | Software             | Comment                     |
+  |---------------+-----------------+----------------------+-----------------------------|
+  |               | <15>            |                      |                             |
+  | Linux VServer | http://linux-vserver.org/Overview | Linux virtual server | Rảnh rỗi sẽ cài đặt cài này |
+  | OSv           | http://www.osv.io/ | Kernel design for VM | phải xem cái này.           |
+  |               |                 |                      |                             |
+* Hacker's website
+  | name       | url                      | Descrbie              | comment |
+  |------------+--------------------------+-----------------------+---------|
+  | [[/dev/ttyS0]] | http://www.devttys0.com/ | Embed device hackking |         |
+  |            |                          |                       |         |
+* What is this? Jaxlondon(javlondon) http://jaxlondon.com/
+* What is different between bsd license and gnu license, MIT ??? tmux & GNU Screen ??
+* implement smtp
+* current status of GNU development
+* Lisp machine OS as compiler
+
+* Begin your OS with Nachos
+
+* Read agile development cycle
+  http://en.wikipedia.org/wiki/Agile_software_development
+* How to sync your linux server time with network time server (NTP)
+  http://www.howtogeek.com/tips/how-to-sync-your-linux-server-time-with-network-time-servers-ntp/?utm_source=newsletter&utm_medium=email&utm_campaign=010413
+* How to batch rename files in window: 4 way to rename multiple files
+  http://www.howtogeek.com/111859/how-to-batch-rename-files-in-windows-4-ways-to-rename-multiple-files/
+* Auto end-call up when no one speak
+* Review
+  - Ôn tập ccna
+  - linux administrator
+  - làm một số mcsa lab
+  - android
+  - tiếng Anh
+  - tiếng Nhật
+* gtd for android, emacs
+* Some Topics of Interest
+  - Disclosure of new Hacking Tools
+  - New Vulnerabilities and Zero Day Exploits
+  - Cyber Forensics↲Lock picking & physical security exploitation
+  - Web Application & Network Security↲Antivirus/IDS/Firewall/filter evasion techniques
+  - Social Engineering
+  - Metasploit Framework
+  - Web Browser Exploitation
+  - Mobile Application Security and Exploitation
+  - Wireless Security
+  - Denial of Service Attacks
+  - Hardware Hacking/ SCADA Hacking
+  - Honeypots↲Fuzzing Techniques
+  - Open Source Security
+  - Cyber Laws, Cyber warfare, Cyber Ethics
+  - Anonimity in Internet
+  - Carding and Black Market Analysis
+* Web for morther & sister
+* Contact manage
+* python/java proxy-server
+* làm một tổng đài tin nhắn từ google
+* install the server that enable booting from network
+  file:/home/w34p0n/mydisk/project_manage.d/vtc_project.d/Network-boot-HOWTO.pdf
+* pratice with VNOI
+  http://vnoi.info/index.php?option=com_voj&task=viewNProblemList
+* integrate Emacs, org-mode with bddb mode
+  http://www.emacswiki.org/emacs-zh?action=browse;oldid=BigBrotherDataBase;id=BbdbMode
+* Dịch và config cho xong CEDET và Emacs, write XSS article
+  http://draft.blogger.com/blogger.g?blogID=1324789115648153756#editor/target=post;postID=6231155752094900889
+* Find Android job: vng, game loft, ...
+* Xen with networking
+  http://wiki.xen.org/wiki/Xen_Networking
+* google, paypal, amazon affliate policy
+  http://www.hoclamgiau.vn/works/employments/v/1/55/Cong-nghe-thong-tin
+* Công quả một ngày
+* Phương's gift: xếp gùa, làm nhà cho gùa
+  [[file:/home/w34p0n/mydisk/tmp/One hundred RMB folding money turtle detailed steps%20%20 Art Origami%20%20 Diagrams Origami%20%20 Origami Folding Diagrams%20%20 Origami Guide%20%20 Art Origami%20%20 Diagrams Origami%20%20 Origami Folding Diagrams%20%20 Origami Guide.html]]
+* Install javascript develop environment on emacs
+  http://blog.deadpansincerity.com/2011/05/setting-up-emacs-as-a-javascript-editing-environment-for-fun-and-profit/
+  http://stackoverflow.com/questions/3565603/using-emacs-for-web-development-php-mysql-javascript-css-html
+  https://news.ycombinator.com/item?id=3550998↲http://www.saltycrane.com/blog/2008/11/emacs-notes/
+* Pythong environment on emacs
+  http://www.saltycrane.com/blog/2010/05/my-emacs-python-environment/
+* Make a shell to easy control emacs source code for build, test, navigation, modified,... Yes, gnu make is flexible, but it's not comfortable
+* Creating remote server nicknames with .ssh/config
+  http://www.saltycrane.com/blog/2008/11/creating-remote-server-nicknames-sshconfig/

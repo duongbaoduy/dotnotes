@@ -1,0 +1,133 @@
+# -*- mode: org; fill-column: 90; -*- 
+#+STARTUP: overview hidestars noinlineimages
+#+OPTIONS: H:3 num:nil toc:nil \n:nil ::t |:t ^:t -:t f:t *:t tex:t d:(HIDE) tags:not-in-toc
+#+CATEGORY: org-world, emacs 
+#+INFOJS_OPT: view:t toc:t ltoc:t mouse:underline buttons:0 path:http://thomasf.github.io/solarized-css/org-info.min.js
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://thomasf.github.io/solarized-css/solarized-light.min.css" />
+#+MODIFIED_DATE: [2013-10-15 Tue 10:12]
+#+email: baoduy.duong0206[at]gmail[dot]com
+#+author: Duong Bao Duy
+#+TITLE: TODO
+#+DRAWERS: hidden
+#+COLUMNS: %50ITEM %12SCHEDULED %TODO %Effort{:} %3PRIORITY %TAGS
+# =====================================================================
+* Modes
+  - [[elisp:(dbd-default-mode)][org-dev]]
+  - [[elisp:(dbd-org2blog-mode)][org2blog]]
+  - [[elisp:(dbd-c-cpp-mode)][C/Cpp]]
+  - [[elisp:(dbd-clojure-mode)][Clojure]]
+* Org files
+  [[file:gtd_quickref.png][image of gtd flow]]
+** My files
+*** TASK [[file:todo.org][todo.org]]
+*** GTD [[file:mygtd.org][mygtd.org]]
+*** Projects [[file:projects.org][project.org]] 
+*** Personal tasks and notes: [[file:organizer.org][organizer.org]]
+*** Outline of blog: [[file:blogs/index.org][blog.org]] [[file:blogs/toc.org][toc.org]]
+** Sacha chua's files
+*** Personal tasks and notes: [[file:organizer.org][organizer.org]]
+*** Anything to do with business: [[file:business.org][business.org]]
+*** Relationships: [[file:people.org][people.org]]
+*** Regular tasks: [[file:routines.org][routines.org]]
+*** Outline for future blog posts: [[http://sach.ac/outline][sharing/index.org of Sacha Chua]] 
+*** Decision review: [[file:decisions.org][decisions.org]]
+*** Personal finance: [[file:ledger.org][ledger.org]]
+    
+* [[file:~/.emacs.d/baoduy/dbd-init.el][dbd-init]] refactory init.el [0/3]
+  load [[file:~/.emacs.d/baoduy/dbd-modes.el][dbd-modes]], mics-func,
+  
+** flow 
+   ;; initialize log -- dbd-log.el
+   ;; system variable -- dbd-variable.el
+   ;; some package need to be installed - dbd-load.el
+   ;; default mode load
+   ;; mapping-mode - dbd-mode.el 
+   ;; some customize function
+   ;; config for some extention when come into it's mode.
+   ;; keyboard
+   ;; frame
+   ;; theme
+   ;; start-server
+** Describe some customize in .emacs.d dired
+*** dbd-cus-key - Define key
+    | Function                | Key       | Describe                                           |
+    |-------------------------+-----------+----------------------------------------------------|
+    |                         |           | <50>                                               |
+    | ?                       | C-x C-q   | Set buffer to read only                            |
+    | (org-refile)            | C-c C-w   | Refile entry or region to a different location     |
+    | (org-set-property)      | C-C C-x p | Prompts for a property name & a value, the property drawer is created & set a well |
+    |                         | C-u C-c ! | Insert date & time with formart [...]              |
+    |                         | C-u C-c . | Insert date & time with formart <...>              |
+    | (org-narrow-to-subtree) | C-x n   s | Narrow buffer to current subtree                   |
+    | (org-narrow-to-block)   | C-x n   b | Narrow buffer to current block                     |
+    | (widen)                 | C-x n   w | Widen buffer to remove narrowing                   |
+    |                         |           |                                                    |
+    |                         |           |                                                    |
+    |                         |           |                                                    |
+    |                         |           |                                                    |
+*** dbd-misc-func - some miscellous function
+** TODO index.org open dbd-default-mode with org features. 
+*** load org-mode
+*** config for org-mode
+*** check agenda & caputer, remember mode, GTD
+*** so on, like that http://newartisans.com/2007/08/using-org-mode-as-a-day-planner/ or http://doc.norang.ca/org-mode.html
+** TODO index.org2blog open dbd-org2blog-mode with org features & org2blog in other process
+** TODO project.org open dbd-c-cpp-mode with org & c/cpp ide features.
+*** like that, https://earthserver.com/Setting_up_a_modern_C%2B%2B_development_environment_on_Linux_with_Clang_and_Emacs
+* About
+  Toi co rat nhieu y tuong va cong viec can phai ghi nho. Vi vay ma su dung org-mode de thay doi theo y cua minh.
+  I'm linux hacker for three year ago. 
+* TODO dbd-complete [[file:~/mydisk/workspace/elisp/db-complete/README.org][README.org]]
+  I have create a complete mode for emacs. This had been code from scratch.
+** Back-end
+   
+** Font-end
+*** popup.el 
+*** fuzzy-matching    
+* Emacs initialize
+  File [[file:~/.emacs.d/docs/init.org][init.org]] contain the notes for init.el
+* Ontology Web with Emacs 
+  [[http://owl-emacs.projects.semwebcentral.org/][An OWL Mode for GNU Emacs]]
+** Notice links 
+  1. [[http://www.russet.org.uk/blog/2161/comment-page-1]]
+  2. [[https://github.com/bdc34/homeConfig/tree/master/dot.emacs-site-lisp/owl]]
+  3. [[https://github.com/phillord/tawny-owl]]
+  4. 
+  5. 
+  6.
+** Basic concept in emacs programming 
+   Emacs has three data structures (actually four) that are intimately related, and very important to understand:
+   1. File
+      A file is the actual Unix file on disk. You are never editing this file. Rather, you can read a copy into Emacs to initialize a buffer, and write a copy of a buffer out to a file to save it.
+   2. Buffer
+      A buffer is the internal data structure that holds the text you actually edit. Emacs can have any number of buffers active at any moment. Most, but by no means all, buffers are associated with a file. Buffers have names; a buffer that has been initialized from a file is almost always named for that file, and we say that the buffer is visiting the file. This means, in particular, that when you save the buffer, it's saved to the proper file. At any given time exactly one buffer is selected: this is the buffer that your hardware cursor is in, and this is where commands you type take effect (including self-insert commands). Buffers can be deleted at will; deleting a buffer in no way deletes the file on disk (though you may lose any editing changes you made if you don't save first).
+   3. Window
+      A window is your view of a buffer. Due to limited screen real-estate, you may not have room to view all your buffers at once. You can split the screen, horizontally or vertically, into as many windows as you like (or at least have room for), each viewing a different buffer. It's also possible to have several windows viewing different portions of the same buffer. Windows can be created and deleted at will; deleting a window in no way deletes the buffer associated with the window. Each window has its own Mode Line, but there's still only one minibuffer.
+   4. Frame
+      A frame is like a window, but is treated as a separate entity under a windowing system like X. I won't be discussing frames.
+   5. * Knowledge as a network
+** [[http://www.gnu.org/software/gnowsys/][GNOWSYS: A Kernel for Semantic Computing!]]
+** [[http://ceur-ws.org/Vol-514/paper12.pdf][GNOWSYS mode for emacs]]
+* Orgmode tutorial [[file:org-notes.org][org-note.org]]
+** [[http://orgmode.org/worg/org-tutorials/orgtutorial_dto.html][David O'Toole Org tutorial]]
+** [[http://orgmode.org/worg/org-tutorials/org-plot.html][org plot]]
+* [[file:doc/git-helper.org][Git helper]]
+* Wordpress relative information
+** http://blindelephant.sourceforge.net/ check Wordpress version
+* Some notes
+** Free master card
+   - http://www.youtube.com/watch?v=rlQKllahgog
+     MasterCard: 5312057865815973
+     Date d'expiration: 5/2017
+     CVC2 :350
+   - 
+     
+** Here are a few ideas for organizing org-mode files:
+   - A single file for all your projects and notes.
+   - One file per project.
+   - One file per client.
+   - One file per area of responsibility or type of work (e.g., household, health, work, etc.).
+   - One file for projects, one for appointments, one for reference material, one for someday/maybe items, etc.
+   - A wiki of hyperlinked files that grows and adapts to meet your needs.
+* Awesome wm information
+* [[https://docs.google.com/document/d/1lrAdtKg435R26mFmrQfGUMkGW5LWJcF0_nwr1TB6NYE/edit?pli=1#][Rem]] & [[https://drive.google.com/keep/#home][keep]]

@@ -1,0 +1,30 @@
+# -*- mode: org; fill-column: 90; -*-
+#+STARTUP: overview noinlineimages hidestars
+#+OPTIONS: H:3 num:nil toc:nil \:nil ::t |:t ^:t -:t f:t *:t tex:t d:(HIDE) tags:not-in-toc
+#+INFOJS_OPT: view:t toc:t ltoc:t mouse:underline buttons:0 path:http://thomasf.github.io/solarized-css/org-info.min.js
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://thomasf.github.io/solarized-css/solarized-light.min.css" />
+#+email: baoduy.duong0206[at]gmail[dot]com
+#+author: Duong Bao Duy
+#+TITLE: About me
+#+DRAWERS: hidden
+#+MODIFIED_DATE: [2014-06-19 Thu 01:35]
+# =====================================================================
+
+#+BEGIN_HTML
+---
+id: about
+layout: page
+title: "About me"
+header: myself
+lang: en
+group: navigation
+lead: ""
+---
+#+END_HTML
+* 
+  Duong Bao Duy
+  [[file:dbd-cv][Resume]]
+
+#+CAPTION: My picture.
+#+NAME:   fig:dbd-picture
+[[https://lh4.googleusercontent.com/-jZ9ehVc7VO8/UVp5bDmdN5I/AAAAAAAACso/9rx0cvF1vqI/s144/myicon.jpg?gl=US]]

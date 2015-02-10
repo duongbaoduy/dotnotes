@@ -1,0 +1,18 @@
+-*- mode: org; fill-column: 90; -*- 
+#+STARTUP: overview hidestars noinlineimages
+#+OPTIONS: H:3 num:nil toc:nil \n:nil ::t |:t ^:t -:t f:t *:t tex:t d:(HIDE) tags:not-in-toc
+#+CATEGORY: org-world, emacs 
+#+INFOJS_OPT: view:t toc:t ltoc:t mouse:underline buttons:0 path:http://thomasf.github.io/solarized-css/org-info.min.js
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://thomasf.github.io/solarized-css/solarized-light.min.css" />
+#+MODIFIED_DATE: 
+
+* Shortkeys
+  <W> = <super> or <window>
+  <S> = <Shift>
+  <C> = <Ctrl>
+  <M> = <Meta> or <Alt>
+  | Key               | Function | Describe                            |
+  |-------------------+----------+-------------------------------------|
+  | <W> + <S> + <num> |          | Move current window to screen <num> |
+  | <W> + <S> + <r>   |          | Restart AwesomeWM                   |
+  | <W> + <C> + <q>   |          | Quit AwesomeWM                      |

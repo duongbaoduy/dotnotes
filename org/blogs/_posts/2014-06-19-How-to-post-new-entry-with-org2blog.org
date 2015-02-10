@@ -1,0 +1,53 @@
+# -*- mode: org; fill-column: 90; -*-
+#+BLOG: myblog
+#+POSTID: 28
+#+STARTUP: overview noinlineimages hidestars
+#+OPTIONS: H:3 num:nil toc:nil \:nil ::t |:t ^:t -:t f:t *:t tex:t d:(HIDE) tags:not-in-toc
+#+CATEGORY:  orgmode, blog
+#+INFOJS_OPT: view:t toc:t ltoc:t mouse:underline buttons:0 path:http://thomasf.github.io/solarized-css/org-info.min.js
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://thomasf.github.io/solarized-css/solarized-light.min.css" />
+#+email: baoduy.duong0206[at]gmail[dot]com
+#+author: Duong Bao Duy
+#+TITLE: How to post new entry with org2blog
+#+DRAWERS: hidden
+#+MODIFIED_DATE: [2014-06-19 Thu 15:34]
+# =====================================================================
+
+#+BEGIN_HTML
+---
+layout: org
+title: "How to post new entry with org2blog"
+description: ""
+excerpt:
+categories: [orgmode, blog]
+tags: []
+published: true
+---
+{% include JB/setup %}
+
+#+END_HTML
+* English
+** Some necessary short key for org2blog/wp-mode.
+   #+CAPTION: Describe shortcut key
+   #+ATTR_HTML: :border 2 :rules all :frame border
+   | Key   | Describe                         |
+   |-------+----------------------------------|
+   | C-c p | publish buffer                   |
+   | C-c d | post as draft                    |
+   | C-c t | Complete tag or parent page name |
+** Creating your post
+   It really could not be simpler
+   1. M-x org2blog/wp-login - To Login to your blog.
+   2. M-x org2blog/wp-new-entry - To create a new post.
+   3. Make your changes in the file.
+   4. C-x C-s – To save the changes
+   5. C-c d – To run the command org2blog/wp-post-buffer which if everything has worked successfully will post your post to your blog as a draft. You’ll notice that POSTID (‘#+POSTID: 00000′) will have been prepended to the file.
+   6. You’ll also be prompted asking if you want to open you’ll new post in the browser. Pressing ‘y’ will do this and if everything has gone well you should see your post.
+   7. Make changes till your happy with your post.
+   8. C-c p – To publish your post to be visible to all.      
+** Delete an entry 
+   =C-u post-id M-x org2blog-delete-entry=
+
+Thats it your done.   
+* Vietnamese
+

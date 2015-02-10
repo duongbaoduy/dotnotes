@@ -1,0 +1,27 @@
+# -*- mode: org; fill-column: 90; -*-
+#+STARTUP: overview noinlineimages hidestars
+#+OPTIONS: H:3 num:nil toc:nil \:nil ::t |:t ^:t -:t f:t *:t tex:t d:(HIDE) tags:not-in-toc
+#+CATEGORY: uncategory
+#+INFOJS_OPT: view:t toc:t ltoc:t mouse:underline buttons:0 path:http://thomasf.github.io/solarized-css/org-info.min.js
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://thomasf.github.io/solarized-css/solarized-light.min.css" />
+#+email: baoduy.duong0206[at]gmail[dot]com
+#+author: Duong Bao Duy
+#+TITLE: How to use orgmode with gtd
+#+DRAWERS: hidden
+#+MODIFIED_DATE: [2014-06-25 Wed 23:40]
+# =====================================================================
+
+#+BEGIN_HTML
+---
+layout: org
+title: "How to use orgmode with gtd"
+description: ""
+excerpt:
+categories: [ uncategory ]
+tags: []
+published: false
+---
+#+END_HTML
+{% include JB/setup %}
+
+** 

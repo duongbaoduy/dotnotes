@@ -1,0 +1,232 @@
+# -*- mode: org; coding: utf-8; -*-
+#+startup: overview
+#+TITTLE:
+#+DESCRIPTION:
+#+KEYWORDS:
+#+LANGUAGE:  en
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
+
+* [[file:task/todo.org][Todo]]
+  
+* [[file:gtd/gtd.org][GTD system]]
+ 
+* [[file:knowlegde.org][Knowlegde]]
+* modified tests
+* Orgmode system
+  
+* Emacs system
+** Some org-example
+*** Column view [[file:tarsh/column_view.org][column view]]
+    
+** dotemacs
+   https://github.com/purcell/emacs.d
+** Trick
+   http://blog.gleitzman.com/post/47426201896/open-files-on-github-from-emacs
+   http://tech.3scale.net/2012/06/22/mining-gems-in-emacs/
+   
+* [[file:linux/toc.org][Linux system]]
+** Shell script 
+*** Trick 
+    http://www.etalabs.net/sh_tricks.html
+    http://hyperpolyglot.org/unix-shells
+
+* Programming concept
+** [[file:prog/ide/ide.org][IDE]]
+** [[file:prog/c_cc_concept.org][C/CC concept]]
+   [[http://www.cprogramming.com/tutorial/c%2B%2B-tutorial.html][C++ tutorial]]
+   http://docencia.ac.upc.edu/FIB/USO/Bibliografia/unix-c-libraries.html
+   http://www.learncpp.com/cpp-tutorial
+   http://web.eecs.utk.edu/~leparker/Courses/CS302-fall05/Notes/inheritance.html
+   http://www.eventhelix.com/realtimemantra/basics/comparingcppandcperformance2.htm#.VIexmlWUfBu
+   http://www.parashift.com/c++-faq/dyn-binding.html
+   http://www.codeproject.com/Articles/7150/Member-Function-Pointers-and-the-Fastest-Possible
+*** DLL
+    http://www.codeguru.com/cpp/w-p/dll/openfaq/article.php/c14001/Determining-Whether-a-DLL-or-EXE-Is-a-Managed-Component.htm#page-2
+*** Lambda
+    http://www.cprogramming.com/c++11/c++11-lambda-closures.html
+    http://stackoverflow.com/questions/7627098/what-is-a-lambda-expression-in-c11
+    http://blog.smartbear.com/c-plus-plus/c11-tutorial-lambda-expressions-the-nuts-and-bolts-of-functional-programming/
+    http://en.cppreference.com/w/cpp/language/lambda
+*** OOP
+    http://www.cs.ust.hk/~dekai/library/ECKEL_Bruce/TICPP-2nd-ed-Vol-one/TICPP-2nd-ed-Vol-one-html/Chapter15.html
+    http://www.open-std.org/jtc1/sc22/open/n2356/derived.html
+    https://isocpp.org/wiki/faq/virtual-functions
+** Master of Makefile
+   
+*** Basic example
+    http://www.opensourceforu.com/2012/06/gnu-make-in-detail-for-beginners/.
+    http://www.chemie.fu-berlin.de/chemnet/use/info/make/make_toc.html
+    http://evbergen.home.xs4all.nl/nonrecursive-make.html
+    http://cs.nyu.edu/~yap/prog/make/
+    http://maemo.org/maemo_training_material/maemo4.x/html/maemo_Application_Development_Chinook/Chapter_02_GNU_Make_and_makefiles.html
+    http://techblog.rosedu.org/gnu-make.html
+    http://david.rothlis.net/large-gnu-make/
+    http://mischasan.wordpress.com/2013/03/30/non-recursive-make-gmake-part-1-the-basic-gnumakefile-layouts/
+
+*** Debug
+    http://www.oreilly.com/openbook/make3/book/ch12.pdf
+    http://www.drdobbs.com/tools/debugging-makefiles/197003338
+    http://stackoverflow.com/questions/1745939/debugging-gnu-make
+    http://stackoverflow.com/questions/4035013/using-gnu-make-to-build-both-debug-and-release-targets-at-the-same-time
+    
+*** Tracing rule
+    http://www.cmcrossroads.com/article/tracing-rule-execution-gnu-make
+    
+*** Vpath
+    http://www.cmcrossroads.com/article/basics-vpath-and-vpath?page=0%2C1
+    https://github.com/Golevka/emacs-clang-complete-async/blob/master/makefile.mk
+    
+*** writing rules & use variables
+    http://www.nondot.org/sabre/Mirrored/GNUMake/make_5.html#SEC50
+    http://www.nondot.org/sabre/Mirrored/GNUMake/make_6.html#SEC62
+    
+
+*** Trick
+    http://blog.jgc.org/2007/06/escaping-comma-and-space-in-gnu-make.html
+
+*** Distributed processing by make
+    http://www.logos.t.u-tokyo.ac.jp/gxp/index.php?gxpc_make
+
+*** [[https://docs.google.com/file/d/0BxmRMaZ4xd3iSFhZU2dGdXh3VEE/preview][Manage projects with GNU Make]]
+    
+** Compiler concept
+   
+*** TDM-GCC
+    http://tdm-gcc.tdragon.net/
+*** Msys & Cygwin [[file:toolchain/msys_cygwin.org][doc]]
+    
+*** Gcc
+    http://www.delorie.com/gnu/docs/gcc/gcc_13.html
+    https://www.cs.utah.edu/dept/old/texinfo/gcc/gcc_16.html
+    http://www.chemie.fu-berlin.de/chemnet/use/info/gcc/gcc_8.html
+    http://www.univ-orleans.fr/SCIENCES/INFO/RESSOURCES/webada/doc/gnat/gcc_6.html#SEC93
+    
+* Graphic engine
+  http://upload.wikimedia.org/wikipedia/commons/7/7b/Free_and_open-source-software_display_servers_and_UI_toolkits.svg
+** OpenGL vs OpenGLES
+   http://web.eecs.umich.edu/~sugih/courses/eecs487/pa1.html
+** Toolkit1.org
+   http://toolkit1.org/000intro2DR.html
+** SDL2
+   http://ingar.satgnu.net/devenv/mingw32/local.html#sdl2
+   https://bitbucket.org/dholth/pysdl2-cffi/src
+
+** Wayland & libhyris
+   http://en.wikipedia.org/wiki/Wayland_%28display_server_protocol%29
+   https://github.com/hdante/hello_wayland
+   http://wayland.freedesktop.org/building.html
+** wxWidgets
+   https://news.ycombinator.com/item?id=423119
+** Widget UI
+   http://anttweakbar.sourceforge.net/doc/tools:anttweakbar:download
+   http://cegui.org.uk/wiki/Using_CEGUI_with_SDL_and_OpenGL
+   http://gamedev.stackexchange.com/questions/56349/how-to-implement-sdl-button-menu-gui-with-callbacks
+   http://www.thelas.dk/index.php?title=SdlWidgets
+   http://cegui.org.uk/download
+   http://libagar.org/index.html.en
+
+* Window manager
+
+** dwm
+   http://dwm.suckless.org/
+
+* [[file:games/game_toc.org][Games]]
+  http://www.learnopengles.com/developing-a-simple-game-of-air-hockey-using-c-and-opengl-es-2-for-android-ios-and-the-web/
+  http://www.learnopengles.com/finishing-up-our-native-air-hockey-project-with-touch-events-and-basic-collision-detection/
+  http://pygame.org/hifi.html
+
+** Game engine 
+   https://github.com/karottenreibe/FIFE
+   
+* Android external libs
+
+** libs
+   http://www.gaia-gis.it/gaia-sins/mingw_how_to.html
+   http://wiki.openttd.org/Compiling_on_Windows_using_MinGW
+
+** leveldb-jni
+   https://github.com/electrum/leveldb-jni
+
+* External library
+
+** Network
+
+*** Socket
+    http://hyperrealm.com/main.php?s=commoncpp
+    http://www.alhem.net/Sockets/download.html
+    http://stlplus.sourceforge.net/
+
+
+* Android
+
+** JNI
+   http://community.arm.com/groups/android-community/blog/2013/09/19/10-android-ndk-tips
+** Graphic engine
+*** Java
+*** JNI
+
+** Kernel driver
+
+** HAL
+
+** System call
+* Audio engnine
+** Audio processing
+   http://clam-project.org/
+   http://www.beadsproject.net/
+   http://www.opus-codec.org/downloads/
+   
+* Math system
+** Concept
+   Complex Numbers
+   Roots of Polynomials
+   Special Functions
+   Vectors and Matrices
+   Permutations
+   Sorting
+   BLAS Support
+   Linear Algebra
+   Eigensystems
+   Fast Fourier Transforms
+   Quadrature
+   Random Numbers
+   Quasi-Random Sequences
+   Random Distributions
+   Statistics
+   Histograms
+   N-Tuples
+   Monte Carlo Integration
+   Simulated Annealing
+   Differential Equations
+   Interpolation
+   Numerical Differentiation
+   Chebyshev Approximation
+   Series Acceleration
+   Discrete Hankel Transforms
+   Root-Finding
+   Minimization
+   Least-Squares Fitting
+   Physical Constants
+   IEEE Floating-Point
+   Discrete Wavelet Transforms
+   Basis splines
+** Library
+*** Eigen
+**** lapack
+     http://www.netlib.org/lapack/
+**** taucs
+     http://www.tau.ac.il/~stoledo/taucs/
+*** 
+* d<m<g3
+  -fno-stack-protector 
+  http://www.exploit-db.com/papers/24085/
+  http://paulmakowski.wordpress.com/2011/01/25/smashing-the-stack-in-2011/
+  https://stuff.mit.edu/iap/2009/exploit/stack.pdf
+  http://unix.stackexchange.com/questions/66802/disable-stack-protection-on-ubuntu-for-buffer-overflow-without-c-compiler-flags
+  http://wiki.osdev.org/Stack_Smashing_Protector
+  http://en.wikipedia.org/wiki/Buffer_overflow_protection
+  http://stackoverflow.com/questions/527973/stack-execution-protection-and-randomization-on-ubuntu
+  http://secgroup.dais.unive.it/teaching/security-course/overflow-and-stack-protection/
+  https://www.corelan.be/index.php/2009/09/21/exploit-writing-tutorial-part-6-bypassing-stack-cookies-safeseh-hw-dep-and-aslr/

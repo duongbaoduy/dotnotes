@@ -1,0 +1,9 @@
+
+* Link to project :PROJECT:tasks:
+** ip scan  - ~/Dropbox/tmp/home-java/Ip_scan
+** llvm     - ~/Dropbox/tmp/llvm
+** pvm      - ~/project_manage.d/tmp/PVM3_Library
+** nmap     - ~/tmp/project_manage.d/tmp/nmap
+* Exploit framework
+** Armitage - http://www.fastandeasyhacking.com/manual#1
+** metasploit - http://www.metasploit.com/ baoduy.duong0206 & dbaoduy@gmail.com

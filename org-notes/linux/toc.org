@@ -1,0 +1,11 @@
+
+* Graphic system
+** OpenGL
+** OpenGLES
+** Mesa
+*** Gallium 3D architecture
+    http://jrfonseca.blogspot.com/2008/04/gallium3d-introduction.html 
+** Wayland
+   http://wayland.freedesktop.org/architecture.html
+* Environment system
+* Harden linux system
