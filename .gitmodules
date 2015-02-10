@@ -1,0 +1,4 @@
+[submodule "aeyakovenko/notes"]
+	path = aeyakovenko/notes
+	url = https://github.com/aeyakovenko/notes.git
+	branch = master
