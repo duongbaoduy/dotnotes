@@ -9,27 +9,37 @@
 #+startup: all
 
 * Knownleged
-** TODO Read it http://www.jfranken.de/homepages/johannes/vortraege/make.en.html
+** TODO Read it 
+   * http://www.jfranken.de/homepages/johannes/vortraege/make.en.html
 ** TODO Read gnu make trick
-   http://locklessinc.com/articles/makefile_tricks/
-   http://www.cmcrossroads.com/article/dumping-every-makefile-variable  
-** TODO Read http://www.mingw.org/wiki/HostedCrossCompilerHOWTO
-** TODO Read http://www.cmake.org/Wiki/CmakeMingw
-** TODO Read http://community.arm.com/groups/android-community/blog/2013/09/19/10-android-ndk-tips
-** Some idea http://glaros.dtc.umn.edu/gkhome/views/projects
-** TODO Read http://www.iniche.com/nichestack.php
-** TODO Downbook http://as.wiley.com/WileyCDA/WileyTitle/productCd-0470227362.html
-** TODO read http://www.boycottdocker.org/
+   * http://locklessinc.com/articles/makefile_tricks/
+   * http://www.cmcrossroads.com/article/dumping-every-makefile-variable  
+** TODO Read
+   * http://www.mingw.org/wiki/HostedCrossCompilerHOWTO
+** TODO Read
+   * http://www.cmake.org/Wiki/CmakeMingw
+** TODO Read 
+   * http://community.arm.com/groups/android-community/blog/2013/09/19/10-android-ndk-tips
+** Some idea 
+   * http://glaros.dtc.umn.edu/gkhome/views/projects
+** TODO Read 
+   * http://www.iniche.com/nichestack.php
+** TODO Downbook 
+   * http://as.wiley.com/WileyCDA/WileyTitle/productCd-0470227362.html
+** TODO read 
+   * http://www.boycottdocker.org/
 
 * Timeline
 ** [2015-02-09 Mon 09:50]
 *** git archive 
-    download specifiec file from git repo
+    * download specifiec file from git repo
 *** git rebase, merging, roll-back
+
 *** golden rule of rebasing
-    https://www.atlassian.com/git/tutorials/merging-vs-rebasing/the-golden-rule-of-rebasing
+    * https://www.atlassian.com/git/tutorials/merging-vs-rebasing/the-golden-rule-of-rebasing
 
 *** extract to git shubmodule
-    http://will.willandorla.com/extract-to-git-submodule
+    * http://will.willandorla.com/extract-to-git-submodule
+
 *** Create a branch which only contains commits for the children of 'foo'
-    git subtree split --prefix=foo --branch=foo-only
+    * git subtree split --prefix=foo --branch=foo-only

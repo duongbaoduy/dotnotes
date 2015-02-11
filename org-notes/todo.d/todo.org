@@ -5,18 +5,85 @@
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
 #+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
 #+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
-
+#+COLUMNS: %25ITEM %TAGS %PRIORITY %TODO
 #+startup: all
 
-* Home
+#+COLUMNS: %26ITEM %2TODO %3PRIORITY %TAGS
+* Home [0/0]
+  
+** doit [0/1]                                                         :@work:
+   :PROPERTIES:
+   :CATEGORY: book
+   :COLUMNS:  123
+   :END:
+*** TODO read book [0/6]                                           :@reading:
++ [ ] https://github.com/vhf/free-programming-books/blob/master/free-podcasts-screencasts-en.md 
++ [ ] https://github.com/vhf/free-programming-books/blob/master/free-courses-en.md
++ [ ] https://github.com/vhf/free-programming-books/blob/master/TODO.md
++ [ ] https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md
++ [ ] https://github.com/vhf/free-programming-books/blob/master/free-programming-interactive-tutorials-en.md
++ [ ] https://github.com/vhf/free-programming-books/blob/master/problem-sets-competitive-programming.md
 
-* doit
-** git introduction
-*** git basic
-    http://rypress.com/tutorials/git/the-basics
+*** git guide [0/0]
+**** git basic [0/0]
+     SCHEDULED: <2015-02-28 Sat>
+- [ ] http://rypress.com/tutorials/git/the-basics
 
-* VNG
-** demo pjlib + voice engine - webrtc
-   DEADLINE: <2015-02-11 Wed> SCHEDULED: <2015-02-10 Tue>
+*** emacs
+**** emacs.d  [0/3]                                                   :@home:
+***** TODO helm [0/0]
+***** TODO orgmode [0/2]
+- [ ] set todo keyword
+- [ ] set tags keyword
+***** TODO some cross tools [0/2]
+- [ ] search tools [0/3]
+  - [ ] find
+  - [ ] grep
+  - [ ] ag (silverlight search)
+- [ ] source version control [0/4]
+  - [ ] git
+  - [ ] svn
+  - [ ] hg
+  - [ ] cvs
 
-** 
+**** cross platform key binding [0/0]
+     scheduled: <2015-02-28 sat>
+
+**** emacs & git [0/2]
+- [ ] magit [[https://magit.github.io/][source]]
+- [ ] git gutter [[https://github.com/syohex/emacs-git-gutter][source]]
+
+**** helm [0/2]
+- [ ] helm ls git
+- [ ] helm find in directory
+  
+*** realtime apps [0/1]
+**** TODO p2p protocol [0/4]                               :@coding:@reading:
+     deadline: <2015-02-12 thu> scheduled: <2015-02-10 tue>
+     :PROPERTIES:
+     :ORDERED:  t
+     :END:
+     - [ ] OpenPeer
+     - [ ] SIP [[https://github.com/dyfet/sipwitch][Switch server]]
+     - [ ] Public [[http://www.cs.columbia.edu/sip/servers.html][sip server]]
+     - [ ] Sip [[http://www.cs.columbia.edu/sip/][implementation]]
+
+**** rtp/rtcp client [0/0]
+     SCHEDULED: <2015-03-02 Mon>
+
+**** rtp/rtcp server [0/0]
+     SCHEDULED: <2015-03-04 Wed>
+
+
+** VNG
+
+*** [0/0] demo pjlib + voice engine - webrtc
+    DEADLINE: <2015-02-11 Wed> SCHEDULED: <2015-02-10 Tue>
+**** integrate pjlib with voice engine [0/3]
+- [ ] remove pjmedia from pjsua_aud.c, pjsua_media.c
+- [ ] set codec, audio device description for sdp
+- [ ] integrate pjsua_media.c interface with voice engine
+
+**** create & test pj_thread [0/0]
+*** [0/0] quyết toán thuế cuối năm
+    SCHEDULED: <2015-02-26 Thu> DEADLINE: <2015-02-28 Sat>
