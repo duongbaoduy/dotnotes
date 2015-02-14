@@ -79,7 +79,6 @@
 **** TODO rtp/rtcp server [0/0]
      SCHEDULED: <2015-03-04 Wed>
 
-
 *** TODO org.dbd.game [0/1]
 **** TODO cgame [0/1]
 ***** TODO move cgame dir to git repo [1/2]
@@ -87,21 +86,22 @@
 - [X] add source to git
 - [ ] change 3party to submodule get from other server repo by gnumake script
 
-
-
 ** TODO VNG [0/3]
 
-*** TODO demo pjlib + voice engine - webrtc [1/4]
+*** TODO demo pjlib + voice engine - webrtc [1/3]
     DEADLINE: <2015-02-11 Wed> SCHEDULED: <2015-02-10 Tue>
 
-**** TODO create & test sip_endpoint
-
-**** TODO create & test 
-**** TODO integrate pjlib with voice engine [0/3]
-- [ ] remove pjmedia from pjsua_aud.c, pjsua_media.c
+**** TODO create & test integrate pjlib with voice engine [1/4]
+- [X] remove pjmedia from pjsua_aud.c, pjsua_media.c
+- [ ] create pjsua_aud.c, pjsua_media.c version2 
 - [ ] set codec, audio device description for sdp
 - [ ] integrate pjsua_media.c interface with voice engine
-  
+
+**** TODO create & test sip_endpoint [1/3]
+- [X] create endpoint with pjmedia_endpt_create
+- [ ] add submodule for endpoint
+- [ ] run test
+
 **** DONE create & test pj_thread [4/4]
 - [X] create dev_test branch
 - [X] add thread_test.cc to jni
