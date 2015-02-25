@@ -10,7 +10,7 @@
 
 * Home [0/2]
   
-** TODO doit [0/4]                                                    :@work:
+** TODO doit [0/6]                                                    :@work:
    :PROPERTIES:
    :CATEGORY: book
    :COLUMNS:  123
@@ -85,6 +85,16 @@
       DEADLINE: [2015-02-11 Wed 13:00]
 - [X] add source to git
 - [ ] change 3party to submodule get from other server repo by gnumake script
+
+*** TODO blog it [0/2]
+
+**** TODO config workspace 
+- [ ] set up emacs with orgmode + octopress on window
+- [ ] move some old post from _draft to _post
+- [ ] how seperate between view & content
+
+
+**** TODO nmap exmaple [[http://projectfenix.com/linux/30-nmap-examples-for-sysnetwork-admins/][ref]]
 
 ** TODO VNG [0/3]
 

@@ -7,5 +7,3 @@
 #+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
 #+COLUMNS: %25ITEM %TAGS %PRIORITY %TODO
 #+startup: all
-
-#+COLUMNS: %26ITEM %2TODO %3PRIORITY %TAGS

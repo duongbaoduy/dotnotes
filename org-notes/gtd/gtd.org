@@ -1,7 +1,0 @@
-#+startup: all
-
-* Configuration GTD with emacs
-  http://members.optusnet.com.au/~charles57/GTD/gtd_workflow.html
-  http://www.lifehack.org/articles/lifehack/using-emacs-org-mode-for-gtd.html
-  http://newartisans.com/2007/08/using-org-mode-as-a-day-planner/
-** 
