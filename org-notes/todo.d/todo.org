@@ -35,7 +35,7 @@
 - [ ] [[http://nvie.com/posts/a-successful-git-branching-model/][git branch model]]
 
 *** emacs [0/4]
-**** TODO emacs.d  [0/3]                                              :@home:
+**** TODO emacs.d  [0/4]                                              :@home:
 ***** TODO helm [0/0]
 ***** TODO orgmode [0/2]
 - [ ] set todo keyword
@@ -64,7 +64,7 @@
   
 *** TODO realtime apps [0/3]
 **** TODO p2p protocol [0/4]                               :@coding:@reading:
-     deadline: <2015-02-12 thu> scheduled: <2015-02-10 tue>
+     DEADLINE: <2015-02-12 Thu> SCHEDULED: <2015-02-10 Tue>
      :PROPERTIES:
      :ORDERED:  t
      :END:

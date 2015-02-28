@@ -1,0 +1,35 @@
+# -*- mode: org; coding: utf-8; -*-
+#+DESCRIPTION:
+#+KEYWORDS:
+#+LANGUAGE:  en
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
+#+COLUMNS: %26ITEM %TAGS %PRIORITY %TODO %9Approved(Approved?){X} %4Owner %11Status %10Time_Spent{:} %10url
+#+startup: all
+
+* Research
+  :PROPERTIES:
+  :Approved_ALL: [] [X]
+  :Owner:    dbd
+  :END:
+** emacs.d [0/4]
+*** TODO projecttile
+    :PROPERTIES:
+    :url:      https://github.com/bbatsov/projectile
+    :END: 
+
+*** TODO prelude
+    :PROPERTIES:
+    :url:      https://github.com/bbatsov/prelude
+    :END:
+
+*** TODO GTD config
+
+*** TODO orgmode: search, occur goto (jump quickly anywhere), [[https://github.com/yjwen/org-reveal][reveal]]
+** pjproject
+** webrtc
+** android
+** ios   
+** martial art
+** 

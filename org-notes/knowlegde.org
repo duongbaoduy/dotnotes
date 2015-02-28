@@ -43,3 +43,26 @@
 
 *** Create a branch which only contains commits for the children of 'foo'
     * git subtree split --prefix=foo --branch=foo-only
+
+** [2015-02-27 Fri] 
+*** rename file name list with `find` command line [[http://askubuntu.com/questions/35922/how-to-change-extension-of-multiple-files-from-command-line][ref]]
+    - use find + rename:
+      find -type f -name '*.abc' -exec rm 's/\.abc$/.edefg/' {} +
+
+    - use find + mv:
+      find -type f -name '*.abc' -exec sh -c 'mv "$1" "${1%.abc}.edefg"' _ {} \;
+      test -- find -type f -name '*.abc' -exec sh -c 'echo "$1" "${1%.abc}.edefg"' _ {} \;
+
+    - use bash script:
+      # Using globstar
+      shopt -s globstar
+      files=(/the/path/**/*.abc)
+
+      # Best to process the files in chunks to avoid exceeding the maximum argument 
+      # length. 100 at a time is probably good enough. 
+      # See http://mywiki.wooledge.org/BashFAQ/095
+      for ((i = 0; i < ${#files[@]}; i += 100)); do
+        rename 's/\.abc$/.edefg/' "${files[@]:i:100}"
+      done
+
+*** 
