@@ -35,8 +35,17 @@
 - [ ] [[http://nvie.com/posts/a-successful-git-branching-model/][git branch model]]
 
 *** emacs [0/4]
-**** TODO emacs.d  [0/4]                                              :@home:
-***** TODO helm [0/0]
+**** TODO emacs.d  [0/7]                                              :@home:
+***** TODO emacs.d window management tools [0/2]
+****** TODO window/linux/macos window management api
+- [ ] move
+- [ ] resize
+- [ ] minimize
+- [ ] slipt
+- [ ] frame
+- [ ] window client
+
+****** TODO configure shortcut for window mangement function
 ***** TODO orgmode [0/2]
 - [ ] set todo keyword
 - [ ] set tags keyword
@@ -51,14 +60,14 @@
   - [ ] hg
   - [ ] cvs
 
-**** TODO cross platform key binding [0/0]
-     scheduled: <2015-02-28 sat>
+***** TODO cross platform key binding [0/0]
+      scheduled: <2015-02-28 sat>
 
-**** TODO emacs & git [0/2]
+***** TODO emacs & git [0/2]
 - [ ] magit [[https://magit.github.io/][source]]
 - [ ] git gutter [[https://github.com/syohex/emacs-git-gutter][source]]
 
-**** TODO helm [0/2]
+***** TODO helm [0/2]
 - [ ] helm ls git
 - [ ] helm find in directory
   
