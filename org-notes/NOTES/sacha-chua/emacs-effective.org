@@ -1,0 +1,13 @@
+* How can I use org-mode for emacs effectively?
+  Here's one path that could help you learn Org:
+  1. Read the Org manual. Read the entire thing, even if you don't understand most of it. Reread as you absorb more.
+  2. Get the hang of using Org as an outliner. See The Org Manual
+  3. Learn how to search and browse around.
+  4. Learn how to use Org to track TODO states. See The Org Manual
+  5. Use C-c [ to add Org files to your agenda list, and learn how to schedule tasks. See The Org Manual and The Org Manual
+  6. Set up org-capture so that you can save notes to your Org file. The Org Manual
+  7. Learn how to archive, now that your Org file is getting pretty big. The Org Manual
+  8. Learn how to use tags and search. The Org Manual
+  9. Customize your Org agenda even further (org-agenda-custom-commands).
+  
+I blog about how I use Org (org " sacha chua) - maybe some of the posts might be helpful too. =)

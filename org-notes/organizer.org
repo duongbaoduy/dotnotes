@@ -1,0 +1,130 @@
+# -*- mode: org; fill-column: 90; -*- 
+#+STARTUP: overview noinlineimages hidestars
+#+OPTIONS: H:3 num:nil toc:nil \:nil ::t |:t ^:t -:t f:t *:t tex:t d:(HIDE) tags:not-in-toc
+#+CATEGORY: uncategory
+#+INFOJS_OPT: view:t toc:t ltoc:t mouse:underline buttons:0 path:http://thomasf.github.io/solarized-css/org-info.min.js
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://thomasf.github.io/solarized-css/solarized-light.min.css" />
+#+email: baoduy.duong0206[at]gmail[dot]com
+#+author: Duong Bao Duy
+#+TITLE: organizer files
+#+DRAWERS: hidden
+#+MODIFIED_DATE: [2013-10-17 Thu 09:06]
+# =====================================================================
+
+
+* Personal tasks and notes: organizer.org
+  This is the catch-all for any tasks or notes that don’t belong to the files below. Here’s the rough structure:
+  * Quick notes: Tidbits that might not make it into their own blog posts, but which can be included in weekly reviews
+  * Reference: Hours, license keys, etc.
+  * Open loops: Anything I need to check on every so often
+  * Projects: High-level things I’m focusing on
+  * Financial goals: Things to save up for
+  * Someday/maybe: Projects to do someday
+  * Weekly review: Divided by year
+  * Monthly review: More summaries
+  * Plans: Personal plans
+  * 2011, 2012, 2013…: I use org-capture to quickly jot down notes. The datetree option automatically files them by day, which makes older ones easier to archive.
+  * Tasks: A bucket for miscellaneous tasks
+* Tasks [[file:todo.org][todo.org]]
+* Notes
+** Sacha Chua
+   [[file:notes/sacha-chua/emacs-effective.org][emacs-effective]]
+* Wishlist
+** ThinkPad X203t or helix tablet pc, sony tablet Z with portable keyboard, alient ware 14, Dell Latitude XT3 Tablet PC
+** Galaxy notes II, Nexus 2 7", Xperia Utral Z
+** Tibet travel
+* Administator
+  base-on org-mode protocol http://orgmode.org/worg/org-contrib/org-protocol.html#sec-3-2
+** Necessary command
+   - Run xen virtual machine
+   - Mount virtual disk
+   - Cloud Xen management with Emacs
+** Install CentOS
+** Install ArchLinux
+** Install Ubuntu
+** Install XenServer
+** Internet Service
+*** DNS
+    - Squid 
+*** DHCP
+*** Mail
+*** FTP
+*** HTTP
+*** IP traffic
+    - http://iptraf.seul.org/
+* Security
+** OWASP projects
+*** Nepal 
+    https://www.owasp.org/images/2/22/Tracks.pdf
+    https://www.owasp.org/index.php/Education_Track:_What_Developers_Should_Know_on_Web_Application_Security
+    https://www.owasp.org/index.php/Category:OWASP_Joomla_Vulnerability_Scanner_Project
+    https://www.owasp.org/index.php/Nepal
+* IDE MODE
+** Open C/C++ IDE: [[elisp:(run-C-C++-IDE-other-process)][run]]
+** Open Clojure IDE; [[elisp:(clojure-run)][run]]
+* VM Server Information [[file:~/mydisk/vm-disk][config-files]]
+** Serv
+** meide
+** Jarvis
+* Famour people
+  | Name                 | URL                                      | Prgrammming langague | Emacs user | Description                   |
+  |----------------------+------------------------------------------+----------------------+------------+-------------------------------|
+  |                      | <40>                                     |                      |            |                               |
+  | stallman             | http://www.stallman.org/                 | Unknown              | *          | Open Source father            |
+  | Sacha Chua           | http://sachachua.com/blog/               | Unknown              | *          | Best blogger                  |
+  | nakkaya              | http://nakkaya.com/                      | Unknown              | *          |                               |
+  | Julien Danjou        | http://julien.danjou.info/               | many                 | *          | Best programmer               |
+  | Jeff Hawkins         | https://www.numenta.com/index.html       |                      |            | Grok projects                 |
+  | Raptor               | http://www.0xdeadbeef.info/              | many                 |            | Security experts              |
+  | travisbhartwell      | https://github.com/travisbhartwell/emacs-config |                      | *          | Remote emacs                  |
+  | Tom Preston-Werner   | http://tom.preston-werner.com/           |                      | *          | Github co-founder             |
+  | Jr0cket              | http://blog.jr0cket.co.uk/               |                      | *          | Community developer           |
+  | Matt Fuller          | http://www.over-yonder.net/~fullermd/    |                      |            | NetBSD user                   |
+  | Torstein K. Johansen | http://skybert.net/                      | many                 | *          | like travel                   |
+  | Christopher Wellons  | http://nullprogram.com/                  | many                 | *          | Java workflow with Emacs      |
+  | Allen Porter         | http://thebends.org/~allen/              | many                 |            | software engineer at Google   |
+  | bwachter             | http://bwachter.lart.info/blog/          | many                 | *          |                               |
+  | chris granger        | http://www.chris-granger.com/            | many                 | *          | author of light table         |
+  | Stephen Ostermiller  | http://ostermiller.org/                  | many                 |            |                               |
+  | Matthew Daley        | http://bugfuzz.com/vulns/                | many                 |            | catalogue the vulnerabilities |
+  | Hugues Hoppe         | http://research.microsoft.com/en-us/um/people/hoppe/ | many                 |            | researcher of microsoft       |
+  | Kornelije Sajler     | http://learnaholic.me/                   | mahy                 | *          |                               |
+  | joshuaeckroth        | http://cse3521.artifice.cc/              | many                 | *          | Intro to AI                   |
+  | Juan Reyero          | http://juanreyero.com/about/             | many                 | *          | PhD in Mechanical Engineering |
+  |                      |                                          |                      |            |                               |
+  some ones else here: http://orgmode.org/worg/org-blog-articles.html
+** Best blogs
+   | Name        | Url                               | Author | Description         |
+   |-------------+-----------------------------------+--------+---------------------|
+   | swannodette | http://swannodette.github.io/     |        |                     |
+   | nakkaya     | http://nakkaya.com/               |        |                     |
+   | david       | http://blog.deadpansincerity.com/ | david  | about js with emacs |
+   | speckyboy   | http://speckyboy.com/             |        |                     |
+   |             |                                   |        |                     |
+* Jobs
+** Scheme on Android
+*** initialize
+** VanChanh's Project
+*** C programming
+** Algorithm
+*** Reading book
+** Emacs 
+*** Source code analysis
+*** Elisp project
+**** auto-complete
+**** w3m
+**** auctex
+**** source code navigation
+**** tabbar customize
+**** ibus on emacs
+** Clang
+*** Auto-complete async
+*** Intergrate with myeditor
+** Editor - myeditor
+** Question ??? 
+   How to reuse elisp code (extend C/C++, python, java, C#) --> virtual machine, byte code, parser, ... 
+*** Ui
+*** Engine
+* Passwifi:
+** AP
+   KHOATOAN af18051986

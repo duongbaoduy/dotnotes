@@ -1,0 +1,23 @@
+#+STARTUP: overiew
+* Contetns  :Buffer Overflows:
+  1. Process memory
+     1.1 Global organization
+     
+     1.2 Function calls
+  2. Stack overflow:
+     a. Principle
+     Notice, the role of the EIP register is the address of the next instruction is stored. We saw the call instruction piles this address, and that the ret function unpiles it.
+     
+
+* Table editor
+  | Name  | Phone | Age |
+  |-------+-------+-----|
+  | Peter |  1234 |  17 |
+  | Anna  |  4321 |  25 |
+
+  
+* Configure SSL for the anttek-client server
+  Following the configure at address: http://www.vanemery.com/Linux/Apache/apache-SSL.html
+  Step 1: Setup your own CA (Certificate Authority)
+  Step 2: Make a key and a certificate for the web server
+

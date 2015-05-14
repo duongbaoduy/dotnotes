@@ -1,0 +1,41 @@
+# -*- mode: org; fill-column: 90; -*- 
+#+STARTUP: overview noinlineimages hidestars
+#+OPTIONS: H:3 num:nil toc:nil \:nil ::t |:t ^:t -:t f:t *:t tex:t d:(HIDE) tags:not-in-toc
+#+CATEGORY: uncategory
+#+INFOJS_OPT: view:t toc:t ltoc:t mouse:underline buttons:0 path:http://thomasf.github.io/solarized-css/org-info.min.js
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://thomasf.github.io/solarized-css/solarized-light.min.css" />
+#+email: baoduy.duong0206[at]gmail[dot]com
+#+author: Duong Bao Duy
+#+TITLE: git helper
+#+DRAWERS: hidden
+#+MODIFIED_DATE: [2014-06-03 Tue 15:54]
+# =====================================================================
+
+
+* Git commands
+** git add submodule
+   1. git submodule add <path>
+   2. or edit .gitmodules
+** check out proper commit in your submodules
+   git submodule foreach git fetch
+   git submodule update --recursive
+   git submodule foreach git pull origin master
+** git remote
+   -  add: git remote add <repo-name> <path>
+   -  information of all repo: git remote -v
+   -  Information of specified repo: git remote show <existent-repo-name>
+   -  change url: git remote set-url <existent-repo-name> <path>
+   -  rename: git remote rename <existent-repo-name> <new-repo-name>
+** git commands
+   1. push:
+      - git push <existent-repo-name> <branch-name>
+      - push data up to remote repository
+   2. pull:
+      - git pull
+      - get data from remote repository and try to merge into current branch
+   3. fetch:
+      - git fetch <repo-name>
+      - get new branch and data from remote repository
+* Git repository
+** http://repo.or.cz/
+** https://github.com/

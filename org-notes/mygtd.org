@@ -1,0 +1,9 @@
+* inbox
+** Read
+** Errand
+* next action
+* waiting for
+* projects
+* somdeday/maybe
+* TODO find some information relative to netbsd kernel	:@home:RESEARCH:TASK:
+  - http://www.over-yonder.net/~fullermd/rants/bsd4linux/01 bsd & linux

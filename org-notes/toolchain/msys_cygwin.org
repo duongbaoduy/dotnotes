@@ -1,0 +1,11 @@
+#+startup: all
+
+
+* Msys
+
+* Cygwin
+* Mingw32
+  http://ingar.satgnu.net/devenv/mingw32/base.html
+  http://wiki.openttd.org/Compiling_on_Windows_using_MinGW
+  http://www.tinc-vpn.org/examples/cross-compiling-windows-binary/
+  http://wiki.openttd.org/Compiling_on_Windows_using_MinGW

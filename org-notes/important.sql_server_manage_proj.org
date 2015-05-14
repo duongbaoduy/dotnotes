@@ -1,0 +1,18 @@
+https://accounts.google.com/o/oauth2/auth?scope=https%3A%2F%2Fwww.google.com%2Fm8%2Ffeeds&redirect_uri=urn:ietf:wg:oauth:2.0:oob&response_type=code&client_id=309980357685.apps.googleusercontent.com&access_type=offline&state=%2Fprofile
+
+https://accounts.google.com/o/oauth2/token?code=4/KItM48nk0_tAQhb5Kl41JSVjRYWv.whAguZkk4RkauJJVnL49Cc-MSaK0cwI&redirect_uri=urn:ietf:wg:oauth:2.0:oob&client_id=309980357685.apps.googleusercontent.com&grant_type=authorization_code&client_secret=KPcKF5f8L8blP2L4OJg2p3jE
+
+
+4/CXw0v6dT7xv5ckRqVvMoQE7aZiHB.Uto9DUoECaMTuJJVnL49Cc8MU3y1cwI
+4/w6yxf4Jh0pnJngrLaaZ4a8n8UZlV.8lwa4lzxptYSRJPr4JvC3xQKi3i1cwI
+4/cy9UFbCA-nlt2ZKjxs-lfz87i1ob.MtlYV4bfxfgbuJJVnL49Cc9-qXO1cwI
+refresh_token = 4/KItM48nk0_tAQhb5Kl41JSVjRYWv.whAguZkk4RkauJJVnL49Cc-MSaK0cwI
+
+https://www.google.com/m8/feeds
+
+
+https://accounts.google.com/o/oauth2/auth?
+scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&
+redirect_uri=urn:ietf:wg:oauth:2.0:oob&
+response_type=code&
+client_id=812741506391-h38jh0j4fv0ce1krdkiq0hfvt6n5amrf.apps.googleusercontent.co

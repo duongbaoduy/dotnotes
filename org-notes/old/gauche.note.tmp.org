@@ -1,0 +1,97 @@
+* Jobs
+  203.162.4.190,
+  
+  32 bit
+  + ./configure --prefix=/home/w34p0n/project_manage.d/atek_inc/installed --build=i686-pc-linux-gnu CC="gcc -m32" CXX="g++ -m32" AS="as -f elf32" -- configure for gosh build with 32bit system
+* The problems
+  I must trying to test by a way create an extension of gauche scheme 
+  The complex problem is how the bootstrap make effect on the builed app.
+  
+  implicit rule: 
+  .stub.c :
+        $(GOSH) $(top_srcdir)/src/genstub $<
+  
+  PRECOMP        = $(GOSH) $(top_srcdir)/src/precomp
+  $(PRECOMP) -e -P -o gauche--collection $(top_srcdir)/libsrc/gauche/collection.scm
+
+  Must be clear about the compiler flow of gauche.uvector
+  build 4 file:
+  uvector.c : uvector.c.tmpl uvgen.scm
+	rm -rf uvector.c
+	$(GOSH) $(srcdir)/uvgen.scm $(srcdir)/uvector.c.tmpl
+  uvlib.c : uvlib.stub
+
+  uvutil.c : uvutil.scm
+	$(PRECOMP) $(srcdir)/uvutil.scm
+
+  use to build uvlib.c
+  uvlib.stub : uvlib.stub.tmpl
+	rm -rf uvlib.stub
+	$(GOSH) $(srcdir)/uvgen.scm $(srcdir)/uvlib.stub.tmpl
+  uvgen.scm to be run by gosh bootstrap command to generate c file
+ 
+* Command debug
+  Commands:
+  # The commands use to startup gauche scheme from adb shell
+  run-as com.anttek.goshterm
+  LD_LIBRARY_PATH=$LD_LIBRARY_PATH:`pwd`/up_to_mobile/lib/gauche-0.9/0.9.3.3/armeabi/
+  ./up_to_mobile/lib/gauche-0.9/0.9.3.3/armeabi/gosh
+
+  # process.scm dbidbd.scm logger.scm serial.scm #compile error
+  # system.scm cgen.scm control.scm util.scm www.scm rfc.scm package.scm optimize.scm scripts.scm #Segmentation fault
+  # lazy-performance.scm # ca 2 loi tren 
+  # file.scm symcase.scm io2.scm test.scm sjis.scm euc-jp.scm # error log
+  
+  #”make check” command copy into adb shell to test gauche scheme android ported
+  
+  SUCCESSLIST="srfi.scm string.scm number.scm char.scm module.scm list.scm weak.scm selector.scm lazy.scm error.scm relative-load-path.scm treemap.scm regexp.scm symkey.scm version.scm utf-8.scm procedure.scm io.scm hash.scm exception.scm dynwind.scm debug.scm sort.scm primsyn.scm parseopt.scm object.scm dict.scm listener.scm multibyte.scm" # SUCCESSLIST
+
+  SUCCESSLIST="scripts.scm io.scm symcase.scm  cgen.scm system.scm  dbidbd.scm  port-performance.scm package.scm parseopt.scm  www.scm io2.scm serial.scm lazy-perform.scm rfc.scm logger.scm text.scm euc-jp.scm util.scm optimize.scm process.scm file.scm control.scm dict.scm listener.scm sjis.scm"
+  
+  for testfile in $SUCCESSLIST; do
+      ./up_to_mobile/lib/gauche-0.9/0.9.3.3/armeabi/gosh -ftest -I/sdcard/testscm $testfile >> test.log;
+  done
+
+  ####################################################################################################
+  Debug:
+  (use gauche.uvector)
+
+
+  ####################################################################################################
+  tmp: 
+  .stub.c :
+     $(GOSH) $(top_srcdir)/src/genstub $<
+  
+  MODLINK   = $(CCLD) $(CFLAGS) $(LDFLAGS)
+  
+  termiolib.stub
+  
+  PRECOMP        = $(GOSH) $(top_srcdir)/src/precomp
+  $(PRECOMP) -e -P -o gauche--collection $(top_srcdir)/libsrc/gauche/collection.scm
+  
+  gosh ../../src/genstub termiolib.stub
+  
+  make GOSH=gosh GAUCHE_CONFIG=gauche-config termios.scm
+  $(MAKE) GOSH=$(GOSH) GAUCHE_CONFIG=$(GAUCHE_CONFIG) $$f; \
+  
+
+
+
+* MIT scheme
+  1. Download the portable C source package mit-scheme-c-9.1.1.tar.gz (mv mit-scheme-c-9.1.1.tar.gz -> ~/tmp)
+  2. Unpack the source package:
+     + tar xzf mit-scheme-c-9.1.1.tar.gz
+     + cd mit-scheme-c-9.1.1/src
+  3. Build the package:
+     + etc/make-liarc.sh
+     + This will take a long time; on fairly fast machines with lots of
+     RAM it takes about an hour. On older machines it will take longer
+     or fail altogether, at which point you should ask for help. Note
+     that you can pass configure options to the script, such as
+	 * etc/make-liarc.sh --help 
+	   or 
+	 * etc/make-liarc.sh --prefix=/usr
+
+  4. Install the program: 
+     + make install 
+  Depending on configuration options and file-system permissions, you may need super-user privileges to do the installation step.

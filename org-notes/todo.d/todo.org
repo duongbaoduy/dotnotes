@@ -1,0 +1,135 @@
+# -*- mode: org; coding: utf-8; -*-
+#+DESCRIPTION:
+#+KEYWORDS:
+#+LANGUAGE:  en
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
+#+COLUMNS: %26ITEM %TAGS %PRIORITY %TODO %9Approved(Approved?){X} %Owner %11Status %10Time_Spent{:}
+#+startup: all
+
+* Home [0/2]
+  
+** TODO doit [0/6]                                                    :@work:
+   :PROPERTIES:
+   :CATEGORY: book
+   :COLUMNS:  123
+   :END:
+*** TODO read book [0/6]                                           :@reading:
++ [ ] https://github.com/vhf/free-programming-books/blob/master/free-podcasts-screencasts-en.md 
++ [ ] https://github.com/vhf/free-programming-books/blob/master/free-courses-en.md
++ [ ] https://github.com/vhf/free-programming-books/blob/master/TODO.md
++ [ ] https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md
++ [ ] https://github.com/vhf/free-programming-books/blob/master/free-programming-interactive-tutorials-en.md
++ [ ] https://github.com/vhf/free-programming-books/blob/master/problem-sets-competitive-programming.md
+
+*** TODO git guide [0/2]
+**** TODO git basic [0/5]
+     SCHEDULED: <2015-02-28 Sat>
+- [ ] http://rypress.com/tutorials/git/the-basics
+- [ ] [[http://www.syntevo.com/smartgit/howtos/6/show?page%3Dworkflows.modify-history][modifying the history]]
+- [ ] [[http://www.syntevo.com/smartgit/howtos/6/show?page%3Dworkflows.resolve-conflicts][resolving conflict]]
+- [ ] [[http://www.syntevo.com/smartgit/howtos/6/show?page%3Dworkflows.cherrypick][cherry picking]]
+**** TODO git workflow [0/2]
+- [ ] [[http://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows#Integration-Manager-Workflow][distributed git]]
+- [ ] [[http://nvie.com/posts/a-successful-git-branching-model/][git branch model]]
+
+*** emacs [0/4]
+**** TODO emacs.d  [0/7]                                              :@home:
+***** TODO emacs.d window management tools [0/2]
+****** TODO window/linux/macos window management api
+- [ ] move
+- [ ] resize
+- [ ] minimize
+- [ ] slipt
+- [ ] frame
+- [ ] window client
+
+****** TODO configure shortcut for window mangement function
+***** TODO orgmode [0/2]
+- [ ] set todo keyword
+- [ ] set tags keyword
+***** TODO some cross tools [0/2]
+- [ ] search tools [0/3]
+  - [ ] find
+  - [ ] grep
+  - [ ] ag (silverlight search)
+- [ ] source version control [0/4]
+  - [ ] git
+  - [ ] svn
+  - [ ] hg
+  - [ ] cvs
+
+***** TODO cross platform key binding [0/0]
+      scheduled: <2015-02-28 sat>
+
+***** TODO emacs & git [0/2]
+- [ ] magit [[https://magit.github.io/][source]]
+- [ ] git gutter [[https://github.com/syohex/emacs-git-gutter][source]]
+
+***** TODO helm [0/2]
+- [ ] helm ls git
+- [ ] helm find in directory
+  
+*** TODO realtime apps [0/3]
+**** TODO p2p protocol [0/4]                               :@coding:@reading:
+     DEADLINE: <2015-02-12 Thu> SCHEDULED: <2015-02-10 Tue>
+     :PROPERTIES:
+     :ORDERED:  t
+     :END:
+     - [ ] OpenPeer
+     - [ ] SIP [[https://github.com/dyfet/sipwitch][Switch server]]
+     - [ ] Public [[http://www.cs.columbia.edu/sip/servers.html][sip server]]
+     - [ ] Sip [[http://www.cs.columbia.edu/sip/][implementation]]
+
+**** TODO rtp/rtcp client [0/0]
+     SCHEDULED: <2015-03-02 Mon>
+
+**** TODO rtp/rtcp server [0/0]
+     SCHEDULED: <2015-03-04 Wed>
+
+*** TODO org.dbd.game [0/1]
+**** TODO cgame [0/1]
+***** TODO move cgame dir to git repo [1/2]
+      DEADLINE: [2015-02-11 Wed 13:00]
+- [X] add source to git
+- [ ] change 3party to submodule get from other server repo by gnumake script
+
+*** TODO blog it [0/2]
+
+**** TODO config workspace 
+- [ ] set up emacs with orgmode + octopress on window
+- [ ] move some old post from _draft to _post
+- [ ] how seperate between view & content
+
+
+**** TODO nmap exmaple [[http://projectfenix.com/linux/30-nmap-examples-for-sysnetwork-admins/][ref]]
+
+** TODO VNG [0/3]
+
+*** TODO demo pjlib + voice engine - webrtc [1/3]
+    DEADLINE: <2015-02-11 Wed> SCHEDULED: <2015-02-10 Tue>
+
+**** TODO create & test integrate pjlib with voice engine [1/4]
+- [X] remove pjmedia from pjsua_aud.c, pjsua_media.c
+- [ ] create pjsua_aud.c, pjsua_media.c version2 
+- [ ] set codec, audio device description for sdp
+- [ ] integrate pjsua_media.c interface with voice engine
+
+**** TODO create & test sip_endpoint [1/3]
+- [X] create endpoint with pjmedia_endpt_create
+- [ ] add submodule for endpoint
+- [ ] run test
+
+**** DONE create & test pj_thread [4/4]
+- [X] create dev_test branch
+- [X] add thread_test.cc to jni
+- [X] add test pj thread source to thread_test.cc
+- [X] run test
+
+*** TODO quyết toán thuế cuối năm [0/4]
+    SCHEDULED: <2015-02-26 Thu> DEADLINE: <2015-02-28 Sat>
+**** TODO đem sổ bảo hiểm xã hội qua a Bảo
+**** TODO Khai thuế
+**** TODO Giấy chứng nhập của công ty cũ và vng
+**** TODO Nộp giấy chứng nhận và tờ khai

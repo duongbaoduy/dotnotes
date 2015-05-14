@@ -1,0 +1,70 @@
+Most useful shortcuts:
+ * C-_ undo (to redo after undoing, I press space and then C-_ again)
+ * C-g cancel, essential if you make a mistake entering another shortcut
+ * C-s search (incremental), great for navigating around a buffer
+ * M-% replace, see http://www.quora.com/How-can-you-perform-search-and-replace-in-Emacs/answer/Jeff-Hammerbacher
+ * M-g g go-to lie
+ * M-; comment, see http://www.quora.com/How-can-I-comment-out-an-entire-block-of-text-in-Emacs/answer/Adam-Hupp
+ * M-I autocompletion
+Useful Basic Commands:
+ * C-x C-s save file
+ * C-x C-c exit
+ * C-x C-f open file
+ * C-k kill (cut) from current position to end of line (use this to cut & paste lines)
+ * C-SPC set mark, select region
+ * C-a / C-e beginning/end of line
+ * M-< / M-> beginning/end of buffer
+ * C-x C-x move backk to mark
+ * C-w / M-w wipe (cut/copy)
+ * C-y yank (paste)
+ * C-x b switch buffer (C-x C-b lists buffers)
+ * M-<right/left arrows> move cursor from one word to the previous/next
+Useful Advanced Commands:
+ * M-x lets you type in a command (e.g
+
+
+M-x lets you type in a command (e.g. M-x revert-buffer reloads the buffer from disk). Some examples:
+
+M-x shell: opens a shell in emacs (but auto-complete doesn't seem to work)
+M-x grep: runs grep within emacs
+(M-x compile and M-x gdb are nice, too)
+
+Typing C-u before another command lets you supply an argument
+
+M-: lets you evaluate lisp expressions (e.g. rebind a key on the fly)
+
+You can also define new shortcuts by binding keys to commands.  For example:
+
+(defun prev-window ()
+  (interactive)
+  (other-window -1))
+
+(global-set-key "\033[5D" 'prev-window)
+(global-set-key "\033[5C" 'other-window)
+
+
+makes ctrl-<left arrow> and ctrl-<right arrow> move between windows.
+
+Ctrl-z undo
+Ctrl-y redo
+Ctrl-d delete a line
+Ctrl-a select all
+Ctrl-f find/search
+Ctrl-space complete the word/term/symbol
+
+Shift + Ctrl-f Indent all document
+
+* Re-define shortkey in emacs
+
+** Keymap in global
+   <C-z> undo 
+   <C-M-z> redo
+   <C-M-d> delete whole line
+
+** Keymap in mode
+
+*** C/C++
+
+*** Clojure
+
+*** Orgmode

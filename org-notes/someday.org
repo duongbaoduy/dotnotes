@@ -1,0 +1,96 @@
+# -*- mode: org; fill-column: 90; -*- 
+#+STARTUP: overview noinlineimages hidestars
+#+OPTIONS: H:3 num:nil toc:nil \:nil ::t |:t ^:t -:t f:t *:t tex:t d:(HIDE) tags:not-in-toc
+#+CATEGORY: GTD
+#+INFOJS_OPT: view:t toc:t ltoc:t mouse:underline buttons:0 path:http://thomasf.github.io/solarized-css/org-info.min.js
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://thomasf.github.io/solarized-css/solarized-light.min.css" />
+#+email: baoduy.duong0206[at]gmail[dot]com
+#+author: Duong Bao Duy
+#+TITLE: This file used to store some stuff not actionable.
+#+DRAWERS: hidden
+#+MODIFIED_DATE: [2013-10-16 Wed 23:51]
+# =====================================================================
+#+begin_comment
+someday/maybe
+#+end_comment
+
+* Someday/Maybe
+
+** Improve my skill
+*** Improve C/C++ skill:
+    - Expertise in C++, and/or C
+    - OOP, OOD principles; design patterns;
+    - embedded development experience (memory management, multithreading, asynchronous communications);
+    - Development of UnitTests, SW functional tests for own code	.
+    - Strength with SQL databases
+    - Experience with distributed, high transaction-rate systems
+    - Good understanding of multi-threaded solutions
+*** Improve ADMIN skill:
+    + Over 8 years of software outsourcing industry experience with Japan customer.
+    + 7 years of supervising , team leading and project management experience
+    + Good at process and ISO/CMMi
+    + In-depth knowledge and experience in time management, risk management, and resource management.
+    + Excel with project planning, execution, monitoring and resource balancing skills, ability to coaching new team lead, PM and support multiple projects.
+    + Involving in Presale & Bid Supporting, Operation & Process Development, Resource Planning & Development
+    + Smart working, open minded and highly responsible to achieve objectives/goals effectively. Very keen to learn new technologies and new business domains/markets. Consistent good performance record validated through promotions and the most respected award at one past company.
+*** Improve JAVA skill:
+    + Java software Architecture, Design and Development (JSP & Servlets, EJB,JMS, JNDI, JDBC, Web Services, Java Sockets, Swing, Multithreading, Design patterns, JNI)
+    + OOP / OOD / AOP skills
+    + Database design
+    + Web and Application Security
+    + PL/SQL Development
+    + JSP/PHP scripting
+    + Open source libraries (Jcifs, Jsch, Log4J, GWT, java for GAE) TCP/IP, HTTP(S), (S)FTP, SMTP, DAV(S), SSH protocols
+    + Web / Application Servers (Apache, Tomcat)
+    + Database Servers (MySQL)
+    + Experience across full project lifecycle in traditional and agile projects
+** Android ideas
+*** Android LanWorks:
+**** DHCPD/BOOTP, NFS, TFTP,
+**** netscan: service, sniffer, detector, ...
+**** wifi tools: aircrack, virtual AP, ....
+**** media remote: ...
+**** services: rsyncd, sshd, httpd, ...
+**** exploit tools: ....
+** Plan of my life 
+   - Tốt nghiệp
+   - Học tiếng Anh
+   - Học tiếng Nhật
+   - Lập trình: lua, c/c++, python, javascript + html+css, ruby, perl, scheme (phần này còn rất mơ hồ), java, c#, (focus on llvm)  -- GNU toolschain, cmake
+   - Hệ thống: admin linux system, xen, window server, content management system, embed system (RTOS),
+   - Database: mysql, sqlite, Oracle, sql server 2000, db2 (IBM)
+   - Design: web, android
+   - Application:
+     1. Desktop environment: kde, gnome, awesome
+     2. Web desktop: eyeOS, lucid-desktop, jquery-desktop
+     3. OS: linux kernel, simple kernel, osplusplus, fiwix kernel, commondore OS
+     4. GNU toolschains: http://en.wikipedia.org/wiki/GNU_toolchain
+     5. Ha.cker knife army: create tools, proxy, gathering info server, scanning server, netcat,  geo ip tool, ...
+*** Nmap, Emacs for System Adminastrator, C/C++
+*** Meatasploit for Ruby
+*** Gauche, Emacs, SBCL, clojure for Lisp, Scheme, Japanses, C/C++, java
+*** Blog, News web, writing for MAKE MONEY,  javascript + html+css
+*** GAE for Java, Python, my CV, interview
+*** GTD on web, emacs, chrome extension for Plan of life
+*** simple kernel, osplusplus, fiwix kernel, commondore OS for expected
+*** DSPloit for Android, Java, network.
+* File
+** C/C++
+*** C++ development with Emacs on Ubuntu Linux
+    http://www.saltycrane.com/blog/2009/07/notes-c-development-emacs-ubuntu-linux/
+** Java
+*** http://www.xbill.org/dnsjava/ dnsjava
+** Clojure
+** System Administator
+*** practice command =find= over 30 examples
+** Errand
+** Projects
+** Reviewing
+** Repors/Writtings
+** Meettings
+** Plan
+** Computer System
+*** ELF (Linux excutable & linable format) [[id:31e30c43-5143-404f-a40b-afada100477e][>>]]
+*** Process & Thread
+** Flash
+*** Decompiler http://www.free-decompiler.com/flash/

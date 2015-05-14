@@ -1,0 +1,218 @@
+# -*- mode: org; fill-column: 90; -*-
+#+STARTUP: overview noinlineimages hidestars
+#+OPTIONS: H:3 num:nil toc:nil \:nil ::t |:t ^:t -:t f:t *:t tex:t d:(HIDE) tags:not-in-toc
+#+CATEGORY:
+#+INFOJS_OPT: view:t toc:t ltoc:t mouse:underline buttons:0 path:http://thomasf.github.io/solarized-css/org-info.min.js
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://thomasf.github.io/solarized-css/solarized-light.min.css" />
+#+email: baoduy.duong0206[at]gmail[dot]com
+#+author: Duong Bao Duy
+#+TITLE: todoz
+#+DRAWERS: hidden
+#+MODIFIED_DATE: [2013-10-17 Thu 07:37]
+# =====================================================================
+
+* [2/6] Tasks
+** TODO code direx, outline, contact with ddbd with el-ctable :@home:RESEARCH:IDEA:
+** TODO should read https://earthserver.com/Setting_up_a_modern_C%2B%2B_development_environment_on_Linux_with_Clang_and_Emacs
+** INPROGRESS [14%] become a profession org-mode: org2blog, babel, org-mode effective with GTD [1/7]
+*** INPROGRESS setting org-mode with GTD
+**** TODO need to learn more about org-mode capture
+**** TODO thing about myself workflow ?? what, why, how, where,
+*** TODO http://www.jayway.com/2012/10/24/a-practical-approach-to-the-aosp-build-system/
+*** TODO http://elinux.org/Android_Build_System
+*** TODO how to public as html in emacs? read public html with org-mode
+*** TODO http://doc.norang.ca/org-mode.html
+*** TODO make it http://newartisans.com/2007/08/using-org-mode-as-a-day-planner/ (read & understand)
+*** TODO Install org-mode from git not from elpa.
+** [0%] Read it [0/25]
+   :PROPERTIES:
+   :ID:       ff7c5621-c557-4887-84de-2d1b046c3728
+   :CUSTOM_ID: ff7c5621-c557-4887-84de-2d1b046c3728
+   :END:
+*** TODO http://lnx.cx/docs/vdg/output/Virtual-Disk-Operations.html
+*** TODO http://drawingablank.me/blog/local-storage-plus-in-memory-storage.html
+*** TODO http://davidpots.com/blog/jekyll-github-pages-compass/
+*** TODO http://designbeep.com/2013/10/22/20-jquery-side-sliding-panel-plugins-show-hide-website/
+*** TODO http://www.jqueryrain.com/example/jquery-menu-example/
+*** TODO http://webdesign.tutsplus.com/articles/quick-tip-working-with-sass-and-bootstrap--webdesign-9153
+*** TODO http://landley.net/aboriginal/presentation.html
+*** TODO http://angg.twu.net/eev-article.html
+*** TODO implement auto save for emacs http://www.emacswiki.org/emacs/AutoSave#toc6
+*** TODO http://www.linuxjournal.com/content/queueing-linux-network-stack
+*** TODO http://www.linuxjournal.com/content/september-2013-linux-kernel-news
+*** TODO http://security.stackexchange.com/questions/23322/keyboard-sniffing-through-audio-recorded-typing-patterns
+*** TODO http://www.wolinlabs.com/blog/emacs.global.speedbar.html
+*** TODO http://ergoemacs.org/emacs/emacs_string-rectangle_ascii-art.html
+*** TODO http://www.freebsd.org/doc/en/books/developers-handbook/emacs.html
+*** TODO http://irreal.org/blog/?p=1902
+*** TODO http://david.rothlis.net/large-gnu-make/ use gnumake for large projects
+*** TODO http://david.rothlis.net/emacs/howtolearn.html
+*** TODO http://www.jontourage.com/2013/08/15/setting-up-deft-mode-in-emacs-with-org-mode/
+*** TODO http://www.cyborganize.org/clarity/software/emacs-org-mode-installation-configuration-and-tutorial/ about emacs settings
+*** TODO http://www.ftrain.com/util_emacs_hints.html Make emacs tell time, open files quickly, and talk to Perl.
+*** TODO [[http://resources.infosecinstitute.com/portable-malware-lab-for-beginners/#!]] Portable Malware Lab for Beginners
+*** TODO http://resources.infosecinstitute.com/how-to-prevent-cross-site-scripting-attacks/?goback=%2Egde_970937_member_5794129388031197185#%21 how to prevent cross site scripting attacks.
+*** TODO http://analystone.com
+*** /pivot-dod-rd-concept-piece-enhancing-dod-cyber-security-posture/?goback=%2Egde_1765567_member_5795591334664351747#%21 pivot for DoD R&D: A concept piece for enhancing DoD's cyber security posture.
+*** TODO https://www.google.com/search?channel=fs&q=orgmode+with+gtd&ie=utf-8&oe=utf-8&gws_rd=ssl#q=orgmode+with+gtd+
+** CANCELLED [0%] Re-customize emacs [0/15]
+   CLOSED: [2013-10-15 Tue 01:27]
+   - State "CANCELLED"  from "WAITING"    [2013-10-15 Tue 01:27] \\
+     to be review later
+   Your `.emacs' File [[file:~/.emacs.d/dbd-init.el][dbd-init]]
+*** TODO [[info:eintr#default configuration][default configuration]]
+*** TODO [[info:eintr#Site-wide Init][Site-wide Init]]              You can write site-wide init files.
+*** TODO [[info:eintr#defcustom][defcustom]]                   Emacs will write code for you.
+*** TODO [[info:eintr#Beginning%20a%20.emacs%20File][Beginning a .emacs File]]    How to write a `.emacs file'.
+*** TODO [[info:eintr#Text%20and%20Auto-fill][Text and Auto-fill]]          Automatically wrap lines.
+*** TODO [[info:eintr#%20Mail%20Aliases][Mail Aliases]]                Use abbreviations for email addresses.
+*** TODO [[info:eintr#Indent%20Tabs%20Mode][Indent Tabs Mode]]            Don't use tabs with TeX
+*** TODO [[info:eintr#Keybindings][Keybindings]]                 Create some personal keybindings.
+*** TODO [[info:eintr#Keymaps][Keymaps]]                     More about key binding.
+*** TODO [[info:eintr#Loading%20Files][Loading Files]]               Load (i.e., evaluate) files automatically.
+*** TODO [[info:eintr#Autoload][Autoload]]                    Make functions available.
+*** TODO [[info:eintr#Simple%20Extension][Simple Extension]]            Define a function; bind it to a key.
+*** TODO [[info:eintr#X11%20Colors][X11 Colors]]                  Colors in X.
+*** TODO [[info:eintr#Miscellaneous][Miscellaneous]]:
+*** TODO [[info:eintr#Mode%20Line][Mode Line]]                   How to customize your mode line.
+** WAITING Writing about common lisp [0/5]
+   - State "WAITING"    from ""           [2013-10-15 Tue 01:28] \\
+     process later
+*** TODO variable scope
+*** TODO List type, associated list type,
+    The following diagram shows the relationship between these types:
+
+    #+begin_src ditaa :file example_ditaa.png  :cmdline -r -s 0.8
+               _____________________________________________
+              |                                             |
+              |          Sequence                           |
+              |  ______   ________________________________  |
+              | |      | |                                | |
+              | | List | |             Array              | |
+              | |      | |    ________       ________     | |
+              | |______| |   |        |     |        |    | |
+              |          |   | Vector |     | String |    | |
+              |          |   |________|     |________|    | |
+              |          |  ____________   _____________  | |
+              |          | |            | |             | | |
+              |          | | Char-table | | Bool-vector | | |
+              |          | |____________| |_____________| | |
+              |          |________________________________| |
+              |_____________________________________________|
+    #+end_src
+*** TODO nrepl
+*** TODO virtual machine techonology
+*** TODO syntax sparser.
+** Design pattern
+*** Builder/Creation pattern/Factory
+**** http://www.codeproject.com/Articles/331304/Understanding-and-Implementing-Abstract-Factory
+**** http://en.wikibooks.org/wiki/C%2B%2B_Programming/Code/Design_Patterns/Creational_Patterns
+**** http://www.vincehuston.org/dp/builder.html
+**** http://sourcemaking.com/design_patterns/builder/cpp/1
+** [0%] Writing about GNUScreen case. [0/0]
+*** [[http://aperiodic.net/screen/quick_reference][doc]]
+** DONE how to use CMAKE
+   CLOSED: [2013-10-12 Sat 01:42]
+   - http://www.vtk.org/Wiki/CMake/Examples#Add_new_libraries_to_CMake
+   - http://newbiz.github.io/tutorials/2011/01/27/Clean-project-management-with-CMake.html
+** Drupal programming                                 :mysql:programming:php:
+** Workpress theme design
+** gae with xml-rpc,
+** ôn tập thuật toán & cau trúc dữ liệu
+** ôn tập ccna
+** blog linux administator system: skill, setup, configuration, data flow, management methology, tools, security.
+** android development
+** mjcms project (string, hadoop, hibernate)
+** make a blog a about emacs, org-mode, gtd
+*** TODO some basic short key in emacs
+*** TODO how to install org-mode.
+ Learn org-mode
+** [9%] Study [1/11]
+*** DONE Plain lists
+    CLOSED: [2013-10-09 Wed 13:47]
+*** TODO Tables, spreadsheet, plotting
+*** TODO Agenda & search
+*** TODO Dates and times
+*** TODO Tags, properties, column view
+*** TODO Remember
+*** TODO Capture
+*** TODO Customizaton
+*** TODO Export & Publishing
+*** TODO Reproducible search
+*** TODO Import
+
+** Usally shortkey
+   -
+** Example
+*** TODO headline1                                                  :example:
+*** TODO headline2                                                  :exampl2:
+*** TODO headline2                                        :example3:example5:
+*** TODO headline2
+*** headline2
+*** [1/1] headline2
+    - [X] plain lists
+    - make list with several items.
+    - [3/4] make a list with check bok task
+      * [ ] cook
+      * This isn't a check book
+      * [X] rabbit eat
+      * [X] eat
+      * [X] rest
+
+*** headline2
+    #+begin_src emacs-lisp
+(defun my_function()
+"Test code block in org-mode"
+(interactive)
+(message "Hello world")
+)
+(my_function)
+    #+end_src
+
+    #+RESULTS:
+    : Hello world
+
+*** headline3
+    create table here.
+    | name | price |
+    |------+-------|
+    | huy  |   500 |
+    | duy  |   600 |
+    |------+-------|
+    |      |       |
+    create table with 3 column
+    | id | url | description |
+    |----+-----+-------------|
+    |    |     |         300 |
+    |    |     |         500 |
+    |    |     |        4999 |
+    |    |     |         423 |
+    |    |     |          43 |
+    |----+-----+-------------|
+    |    |     |        6265 |
+    #+TBLFM: @7$3=vsum(@2$3..@6$3)
+
+    - @n$m      : n'th row, m'th column
+    - c-u c-x = : insert formula for current field
+    - c-c c-c   : re-applying for formula or re-indent table
+
+*** headline4
+    create a tree folder [[*Read%20it:%20http://ergoemacs.org/emacs/emacs_string-rectangle_ascii-art.html][>>]]
+
+*** headline2
+*** headline2
+*** headline2
+*** headline2
+
+*** DONE headline1 raea                                 :gexample5:myexample:
+    CLOSED: [2013-10-09 Wed 14:20] DEADLINE: <2013-10-11 Fri> SCHEDULED: <2013-10-09 Wed>
+    CLOCK: [2013-10-09 Wed 14:19]--[2013-10-09 Wed 14:19] =>  0:00
+    CLOCK: [2013-10-09 Wed 14:18]--[2013-10-09 Wed 14:19] =>  0:01
+    CLOCK: [2013-10-09 Wed 11:49]--[2013-10-09 Wed 13:15] =>  1:26
+    :PROPERTIES:
+    :COLUMNS:  %50ITEM %TODO %12SCHEDULED %TAGS %3PRIORITY %Effort{:}%Contents
+    :jobs:     jobs(read it)
+    :Effort:   0:20
+    :PRIORITY_ALL: fsda
+    :Contents: Read it
+    :END:

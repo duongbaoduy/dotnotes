@@ -1,0 +1,69 @@
+* analysis
+  ENTRY_CACHE
+  |--------+-------------+-----------+-----------------+----------------+-----------------+----------+--------------+------------+---------------+------------+-------------+----------------------+---------------+-----------------+-------------+----------+----------------|
+  | COL_ID | COL_IDENTRY | COL_TITLE | COL_DESCRIPTION | COL_RESOURCEID | COL_QUOTABYUSER | COL_LINK | COL_CATEGORY | COL_EDITED | COL_PUBLISHED | COL_AUTHOR | COL_CONTENT | COL_WRITERSCANINVITE | COL_LASTMODBY | COL_MD5CHECKSUM | COL_UPDATED | COL_ETAG | COL_CHANGETAMP |
+  |--------+-------------+-----------+-----------------+----------------+-----------------+----------+--------------+------------+---------------+------------+-------------+----------------------+---------------+-----------------+-------------+----------+----------------|
+  |      0 |           1 |         2 |               3 |              4 |               5 |        6 |            7 |          8 |             9 |         10 |          11 |                   12 |            13 |              14 |          15 |       16 |             17 |
+  |--------+-------------+-----------+-----------------+----------------+-----------------+----------+--------------+------------+---------------+------------+-------------+----------------------+---------------+-----------------+-------------+----------+----------------|
+
+  |----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+  | COL_ID               | ID of row in ENTRY_CACHE.                                                                                                                                       |
+  | COL_IDENTRY          | A unique, permanent identifier for this entry                                                                                                                   |
+  | COL_TITLE            | Title of this resource.                                                                                                                                         |
+  | COL_DESCRIPTION      | Description of this resource (currently visible in the preview pane in the UI).                                                                                 |
+  | COL_RESOURCEID       | Resource ID of this document.                                                                                                                                   |
+  | COL_QUOTABYUSER      | Number of bytes of the owner's quota this document uses.  Native Google Docs currently use 0 bytes.                                                             |
+  | COL_LINK             |                                                                                                                                                                 |
+  | COL_CATEGORY         |                                                                                                                                                                 |
+  | COL_EDITED           | Date this document was last edited by a user in the document editor in a web browser.                                                                           |
+  | COL_PUBLISHED        | Date this document was created (the "published" name of this element is mis-leading, but this is Atom standard).                                                |
+  | COL_AUTHOR           | Information about the owner of this document (not necessarily the user authorizing this request).                                                               |
+  | COL_CONTENT          | Link at which you can download the actual document this entry describes.                                                                                        |
+  | COL_WRITERSCANINVITE | "true" if writers can invite other users to view and edit this document.                                                                                        |
+  | COL_LASTMODBY        | Information about the user who last modified this entry (not necessarily the user authorizing this request).                                                    |
+  | COL_MD5CHECKSUM      | Given for files only. An MD5 checksum used to verify the contents of this file. Some old files are being processed. Those files will not have this element yet. |
+  | COL_UPDATED          | Lastest updated of this entry.                                                                                                                                  |
+  | COL_ETAG             | Etag of entry.                                                                                                                                                  |
+  | COL_CHANGETAMP       | Lastest change tamp.                                                                                                                                            |
+  |----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+  
+  PARENT_TB
+  | COL_ID | COL_PARENT | COL_CHILD |
+  |--------+------------+-----------|
+  |      0 |          1 |         2 |
+  |--------+------------+-----------|
+
+  |------------+-----------------------------------|
+  | COL_ID     | ID of row in database.            |
+  | COL_PARENT | ResourceId of parent entry.       |
+  | COL_CHILD  | RESOURCEID of row in ENTRY_CACHE. |
+  |------------+-----------------------------------|
+  
+  Example: 
+  <link rel="http://schemas.google.com/docs/2007#parent" type="application/atom+xml" href="https://docs.google.com/feeds/default/private/full/folder%3A12345" title="ACollectionName"/>
+
+
+* GOOGLE query resource by URL
+  * Retrieving changes for a user
+    GET https://docs.google.com/feeds/<user-id>/private/changes (DEFAULTS: https://docs.google.com/feeds/default/private/changes)
+  * Getting a list of documents and files
+    GET "https://docs.google.com/feeds/default/private/full"
+  * Getting the metadata and contents of an individual collection
+    GET https://docs.google.com/feeds/default/private/full/folder%3Acollection_id/contents
+  * Determining which resources are in the root collection
+    GET URL+?showroot=true
+    ROOT resourceId=folder%3Aroot
+  * Looking for things that are only in the root collection:
+    GET https://docs.google.com/feeds/default/private/full/folder%3Aroot/contents
+* CHANGLOGS 
+  * version 1.0 (1):
+    implement google docs
+    feature support: 
+    * Download/Upload to cloud
+    * Rename, view properties, delete a file on cloud
+    * Multiusers connect to profile
+	
+
+
+
+    

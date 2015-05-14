@@ -1,0 +1,18 @@
+
+* CD collection
+  :PROPERTIES:
+  :NDisks_ALL: 1 2 3 4
+  :Publisher_ALL: "Deutsche Grammophon" Philips EMI
+  :EN:       D
+** Classic
+   :PROPERTIES:
+   :GENRES:   Classic
+   :END:
+*** Goldberg Variations
+    :PROPERTIES:
+    :Title:    Goldberg Variations
+    :Composer: J.S. Bach
+    :Artist:   Glen Gould
+    :Publisher: Deutsche Grammophon
+    :NDisks:   1
+    :END:
