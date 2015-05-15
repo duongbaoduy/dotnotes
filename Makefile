@@ -67,7 +67,7 @@ git-create:
 	case "$(shell git remote)" in \
 		"origin" ) git remote remove origin; \
 	esac 
-	git remote add origin https://github.com/duongbaoduy/notes.git
+	git remote add origin https://github.com/duongbaoduy/dotnotes.git
 	@echo Done $@ : $^ !!
 
 .PHONY: build
