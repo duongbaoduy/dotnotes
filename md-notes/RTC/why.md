@@ -1,0 +1,1 @@
+# (why video?)[http://voice.talkfusion.com/blog/887/Why-Video-Heres-Why]
